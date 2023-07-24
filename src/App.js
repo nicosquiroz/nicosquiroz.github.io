@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <h1> I'm Nicolás S. Quiroz</h1>
-      <h2> Author: NSQ</h2>
+      <h2> Author: NSQ :)</h2>
       {/* <img src={background} alt="background" /> */}
     </div>
   );
