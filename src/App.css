@@ -8,6 +8,7 @@ body {
   /* background-image: url("./img/movil 2.jpeg"); */
   background-color: rgb(209, 204, 204);
   /* background-size: cover; */
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .App-logo {
   height: 40vmin;
