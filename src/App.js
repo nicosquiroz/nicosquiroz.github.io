@@ -7,14 +7,14 @@ function App() {
       <h1> I'm Nicolás S. Quiroz</h1>
       <h2> Author: NSQ :)</h2>
       
-      <div className="z-10 w-full max-w-5xl items-center justify-between text-sm lg:flex">
-        <p className="flex w-full justify-center pb-8 backdrop-blur-2xl lg:static lg:w-auto">
+      <div>
+        <p>
           Nicolás Sepúlveda Quiroz
         </p>
       </div>
 
-      <div className="z-10 w-full max-w-5xl items-center justify-between text-sm lg:flex">
-         <p className={`m-0 text-sm opacity-60 xs:pb-6 sm:pb-5`}>
+      <div>
+         <p>
            I'm a Data Scientist living in Viña del Mar, Chile.
         </p>
       </div>
