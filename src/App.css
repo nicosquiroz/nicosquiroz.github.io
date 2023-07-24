@@ -5,9 +5,9 @@
 
 
 body {
-  background-image: url("./img/movil 2.jpeg");
-  background-color: black;
-  background-size: cover;
+  /* background-image: url("./img/movil 2.jpeg"); */
+  background-color: rgb(209, 204, 204);
+  /* background-size: cover; */
 }
 .App-logo {
   height: 40vmin;
