@@ -1,3 +1,15 @@
+
+
+#Avances
+
+Incorporé el boton "Música/Ciencia". El objetivo es poder entregar más información técnica para cada una de las áreas. El siguiente paso es probar el resaltado de la información seleccionada y desvanecimiento del texto e imágenes del tema contrario.
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
