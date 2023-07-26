@@ -2,8 +2,10 @@
 
 #Avances
 
-Incorporé el boton "Música/Ciencia". El objetivo es poder entregar más información técnica para cada una de las áreas. El siguiente paso es probar el resaltado de la información seleccionada y desvanecimiento del texto e imágenes del tema contrario.
+-Incorporé el boton "Música/Ciencia". El objetivo es poder entregar más información técnica para cada una de las áreas. El siguiente paso es probar el resaltado de la información seleccionada y desvanecimiento del texto e imágenes del tema contrario.
 
+-Colocar temas en etiqueta aside
+-Colocar botón en el footer solo para Móvil
 
 
 
