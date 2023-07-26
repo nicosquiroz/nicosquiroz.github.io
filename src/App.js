@@ -1,9 +1,44 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
-import gif from './img/gif.gif'
+
+
+// Implementando componentes para cambiar entre "Música" y "Ciencia"
+import Header from './Header';
+import MusicSection from './MusicSection';
+import ScienceSection from './ScienceSection';
+
+
+// import gif from './img/gif.gif'
+
+
 function App() {
+  // Implementando componentes para cambiar entre "Música" y "Ciencia"
+  const [showMusicSection, setShowMusicSection] = useState(true);
+
+  const handleMusicClick = () => {
+    setShowMusicSection(true);
+  };
+
+  const handleScienceClick = () => {
+    setShowMusicSection(false);
+  };
+  
   return (
+
+
+    
+
     <div className="App">
+
+
+      <Header
+        onMusicClick={handleMusicClick}
+        onScienceClick={handleScienceClick}
+      />
+      {showMusicSection ? <MusicSection /> : <ScienceSection />}
+
+
+
       <h4> I'm Nicolás S. Quiroz</h4>
       
       <div>

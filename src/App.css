@@ -31,7 +31,30 @@ body {
   background-color: rgba(209, 204, 204, 0.592);
   /* background-size: cover; */
   font-family:'Roboto Mono', monospace;
+  color:rgb(48, 48, 48);
 }
+header {
+  text-align: center;
+}
+header > div > img {
+  padding-bottom: 0.3rem;
+  width: 30%;
+}
+
+button {
+  font-size: 1rem;
+  margin-left: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  /* border-radius: 4px; */
+  /* background-color: #555; */
+  background:none;
+  color: #555555;
+  cursor: pointer;
+  font-family: 'Roboto Mono';
+  font-weight: 400;
+}
+
 
 /* .App-logo {
   height: 40vmin;
