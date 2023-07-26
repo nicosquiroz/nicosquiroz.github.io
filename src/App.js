@@ -39,7 +39,7 @@ function App() {
 
 
 
-      <h4> I'm Nicolás S. Quiroz</h4>
+      <h4> Nicolás S. Quiroz</h4>
       
       <div>
         
