@@ -57,7 +57,7 @@ function App() {
   I can't be the only one who has experienced the mysterious feeling that deep dreaming evokes. It's strangely familiar and hypnotic to our eyes, yet so odd to watch.</p>
   <p>
   
-  As with anything that's visually beautiful and nontrivial to my eyes, I wonder: <h4>How does it sound?</h4> Can every illusion or strangeness found in light be translated into sounds? Can sounds cause the same unfamiliarity in our imaginations as music warms our brains and beauty enlightens our eyes?</p>
+  As with anything that's visualy beautiful and nontrivial to my eyes, I wonder: <h4>How does it sound?</h4> Can every illusion or strangeness found in light be translated into sounds? Can sounds cause the same unfamiliarity in our imaginations as music warms our brains and beauty enlightens our eyes?</p>
   <p>
   
   This is me starting to document what will be my learning process towards machine learning, beginning with being guided by a very meaningful project I've been working on for the past months.
