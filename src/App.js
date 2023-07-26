@@ -6,7 +6,7 @@ import './App.css';
 import Header from './Header';
 import MusicSection from './MusicSection';
 import ScienceSection from './ScienceSection';
-
+import Sidebar from './sidebar';
 
 // import gif from './img/gif.gif'
 
@@ -31,13 +31,9 @@ function App() {
     <div className="App">
 
 
-      <Header
-        onMusicClick={handleMusicClick}
-        onScienceClick={handleScienceClick}
-      />
-      {showMusicSection ? <MusicSection /> : <ScienceSection />}
 
 
+      <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
 
       <h4> Nicolás S. Quiroz</h4>
       
@@ -51,7 +47,7 @@ function App() {
         </p>
       </div>
     <div className='Blog'>
-
+    
     <h4>A journey towards Deep Music.</h4>
     <p>
   I can't be the only one who has experienced the mysterious feeling that deep dreaming evokes. It's strangely familiar and hypnotic to our eyes, yet so odd to watch.</p>
@@ -64,15 +60,7 @@ function App() {
   </p><p>
   With my brilliant friend @jajamacka, we've been secretly working on the same creative project. Right now, she's making a video for music I made, and I'm creating the music for a video she made. This started as our first steps to finally create the things we wanted to create.
   </p>
-  <div className='gif'>
-    <p>lalala
-  </p><p>lalala
-  </p><p>lalala
-  </p><p>lalala
-  </p><p>lalala
-  </p><p>lalala
-  </p>
-  </div>
+  
   {/* <img src={gif} class="gif" />; */}
   
   <p>
@@ -86,8 +74,53 @@ function App() {
   </p><p>
   I'd like to apply that process of mixing things in unexpected ways along the process, as I find that most of the time, I get the best insights from learning how everyone else learns. And I... </p>
     </div>
-      
+
+
+    <div className='Span'></div>
+
+    <div className='gif'>
+    <p>lalala
+  </p><p>lalala
+  </p><p>lalala
+  </p><p>lalala
+  </p><p>lalala
+  </p><p>lalala
+  </p>
+  </div>
+
+
+    <section className="Seccion2">
+
+    
+
+   
+    <Header
+        onMusicClick={handleMusicClick}
+        onScienceClick={handleScienceClick}
+      />
+      {showMusicSection ? <MusicSection /> : <ScienceSection />}
+
+
+
+
+
+      LALALA
+      <div style={{marginTop: 1000 + 'em'}}>
+      analytics
+      </div>>
+    </section>
+
+    
+        
      </div>
+
+
+
+
+
+
+
+  
   );
 }
 

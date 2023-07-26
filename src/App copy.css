@@ -3,50 +3,22 @@
   margin-left:4svw;
   margin-right:4svw;
   margin-top: 3rem;
-  /* font-size: small; */
+  font-size: medium;
 }
 .Blog {
   /* text-align: center; */
   margin-left:4svw;
   margin-right:4svw;
-  margin-top: 8rem;
-  /* font-size: small; */
-  margin-bottom: 8rem;
+  margin-top: 3rem;
+  font-size: medium;
 
 }
-.Blog p {
-  margin-right: 30%;
-  margin-bottom: 1rem;
-}
-
-@media screen and (max-width: 700px) {
-  .Blog {
-    margin-right: 4svw ;
-  }
-  .Blog p {
-    margin-right: 0%;
-  }
-}
-.Seccion2 {
-  background-color: black;
-  margin-left: -4svw;
-  margin-right: -4svw;
-}
-.Span{
-  padding:6svw;
-  background-color: black;
-  margin-left: -4svw;
-  margin-right: -4svw;
-}
-
-
 .gif {
-  padding-top: 10%;
-  padding-bottom: 10%;
+
   background-image: url("./img/gif.gif"); 
-  background-size:cover, no-repeat;
-  margin-left: -4svw;
-  margin-right: -4svw;
+  background-size: contain, no-repeat;
+  margin-left: -8svw;
+  margin-right: -8svw;
   background-position: center;
   /* display: block;
   margin-left: 50%;
@@ -56,14 +28,15 @@
 
 body {
   /* background-image: url("./img/movil 2.jpeg");  */
-  background-color: rgba(209, 204, 204, 0.592);
+  background-color: rgb(16, 16, 16);
   /* background-size: cover; */
-  font-family:'Roboto Mono', monospace;
-  /* font-family: 'Helvetica Neue', sans-serif; */
-  color:rgb(48, 48, 48);
+  /* font-family:'Roboto Mono', monospace; */
+  font-family: 'Helvetica Neue', sans-serif;
+  color:rgb(255, 255, 255);
+
+  font-weight:300;
 }
 header {
-  padding-top: 8rem;
   text-align: center;
 }
 header > div > img {
@@ -79,7 +52,7 @@ button {
   /* border-radius: 4px; */
   /* background-color: #555; */
   background:none;
-  color: #c2c2c2;
+  color: #555555;
   cursor: pointer;
   font-family: 'Roboto Mono';
   font-weight: 400;
