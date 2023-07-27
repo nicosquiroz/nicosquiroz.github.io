@@ -74,24 +74,20 @@ function App() {
   </p><p>
   I'd like to apply that process of mixing things in unexpected ways along the process, as I find that most of the time, I get the best insights from learning how everyone else learns. And I... </p>
     </div>
-
-
-    <div className='Span'></div>
-
-    <div className='gif'>
-    <p>lalala
-  </p><p>lalala
-  </p><p>lalala
-  </p><p>lalala
-  </p><p>lalala
-  </p><p>lalala
-  </p>
-  </div>
-
+    <div className="fondoblur">
+      fondoblur
+    </div>
 
     <section className="Seccion2">
 
-    
+    <div className='Span'>
+    </div>
+
+    <div className='gif'></div>
+
+
+
+    <div className='Span'></div>
 
    
     <Header
@@ -107,7 +103,8 @@ function App() {
       LALALA
       <div style={{marginTop: 1000 + 'em'}}>
       analytics
-      </div>>
+      </div>
+
     </section>
 
     
