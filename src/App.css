@@ -118,7 +118,11 @@ html {
   pointer-events: none;
   /* mix-blend-mode:multiply; */
 }
-
+@media screen and (max-width: 800px) {
+  .fondoblur {
+    margin-top: -20%;
+  }
+  }
 body {
   /* background-image: url("./img/movil 2.jpeg");  */
   /* background-color: rgba(209, 204, 204, 0.592); */
@@ -221,6 +225,8 @@ a:link:active, a:visited:active {
 @media screen and (max-width: 800px) {
   .Sound.playing {
     zoom: 300%;
+    margin-top: 100svw;
+    margin-bottom: -2000svw;
   }
   
 }
