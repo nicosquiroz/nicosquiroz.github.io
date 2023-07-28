@@ -95,11 +95,14 @@ html {
   margin-top: -50%;
   margin-bottom: -10%;
   padding: 20svw;
+  padding-left: 0;
+  padding-right: 0;
   zoom: 150%;
+  width:100%;
   background-image: url("./img/gif.gif"); 
   background-position:top;
-  margin-left: -4svw;
-  margin-right: -4svw; 
+  /* margin-left: -4svw;
+  margin-right: -4svw;  */
   opacity: 10%;
   filter: blur(20px) invert() saturate(10);
   mix-blend-mode:exclusion;
