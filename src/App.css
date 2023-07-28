@@ -65,6 +65,11 @@ html {
 
   
 }
+@media screen and {max-width: 600px} {
+  .Span > h1 {
+    margin-top:-9.4%;
+  }
+}
 
 .gif {
   border: #c2c2c2;
@@ -101,6 +106,7 @@ html {
   pointer-events: none;
   /* mix-blend-mode:multiply; */
 }
+
 body {
   /* background-image: url("./img/movil 2.jpeg");  */
   /* background-color: rgba(209, 204, 204, 0.592); */
