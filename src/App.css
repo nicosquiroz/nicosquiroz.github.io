@@ -185,7 +185,7 @@ a:link:active, a:visited:active {
   opacity: 100%;
   
   background-repeat: no-repeat;
-  background-position:top;
+  background-position: top;
   background-position-x: 100svw;
   /* background-position-y: -50svw; */
   background-size: contain;
@@ -198,7 +198,7 @@ a:link:active, a:visited:active {
   margin-right: -4svw;
   margin-left: -4svw;
   margin-top: -100svw;
-  margin-bottom: -3000svw;
+  margin-bottom: -1000svw;
   padding:100svw;
 
   overflow: visible;
