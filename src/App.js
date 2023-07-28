@@ -10,7 +10,7 @@ import ScienceSection from './ScienceSection';
 import Sidebar from './sidebar';
 import { BrowserRouter } from 'react-router-dom';
 
-// import gif from './img/gif.gif'
+ import jfuturo from './img/movil 2.jpeg'
 
 
 
@@ -52,13 +52,13 @@ function App() {
            I'm a Data Scientist living in Viña del Mar, Chile.
         </p><p>
           <br></br>
-           Chaotically learning in the line between art and science.
+           Chaotically learning in the line between art and science. <br></br>I'm currently <a href="#deepmusic">applying Machine Learning</a> in music production.
         </p>
       </div>
     <div className='Blog'>
     
   
-    <h4>A journey towards Deep Music.</h4>
+    <h4 id="deepmusic">A journey towards Deep Music.</h4>
     <p>
   I can't be the only one who has experienced the mysterious feeling that deep dreaming evokes. It's strangely familiar and hypnotic to our eyes, yet so odd to watch.</p>
   <p>
@@ -68,8 +68,7 @@ function App() {
   
   This is me starting to document what will be my learning process towards machine learning, beginning with being guided by a very meaningful project I've been working on for the past months.
   </p><p>
-  With my brilliant friend @jajamacka, we've been secretly working on the same creative project. It's called</p> 
-    <a href="#in">Innertwist</a> <p> Right now, she's making a video for music I made, and I'm creating the music for a video she made. This started as our first steps to finally create the things we wanted to create.
+  With my brilliant friend <a href='http://instagram.com/jajamacka'>Macka Garrido</a>, we've been secretly working on the same creative project. It's called <a href="#in">Innertwist</a>. Right now, she's making a video for music I made, and I'm creating the music for a video she made. This started as our first steps to finally create the things we wanted to create.
   </p>
   
   {/* <img src={gif} class="gif" />; */}
@@ -112,10 +111,17 @@ function App() {
 
 
       LALALA
-      <div style={{marginTop: 1000 + 'em'}}>
+      <div style={{marginTop: 50 + 'em'}}>
       analytics
       </div>
 
+
+
+
+
+    
+    <span></span>
+    <img src={jfuturo} class="jfuturo" />
     </section>
 
     
