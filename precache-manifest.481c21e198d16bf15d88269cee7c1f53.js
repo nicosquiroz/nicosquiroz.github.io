@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "7ee48cfe5141e951a99f",
+    "revision": "cad99b2c95758474ceeb",
     "url": "/static/css/main.917958f7.chunk.css"
   },
   {
-    "revision": "7ee48cfe5141e951a99f",
-    "url": "/static/js/main.7ee48cfe.chunk.js"
+    "revision": "cad99b2c95758474ceeb",
+    "url": "/static/js/main.cad99b2c.chunk.js"
   },
   {
     "revision": "54087e177e7c5a193df0",
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/static/media/EuropaGroteskSH-Med.8caf9417.otf"
   },
   {
-    "revision": "cad95c038f6aae132904cd4a6a0e1941",
+    "revision": "00e00b94c39fc3589e5f562cd2dceef4",
     "url": "/index.html"
   }
 ];
