@@ -111,7 +111,7 @@ html {
   background-position:top;
   /* margin-left: -4svw;
   margin-right: -4svw;  */
-  opacity: 10%;
+  opacity: 0.1;
   filter: blur(20px) invert() saturate(10);
   mix-blend-mode:exclusion;
   pointer-events: none;
@@ -191,7 +191,6 @@ a:link:active, a:visited:active {
 
   background-color: white; /*Cambia el color de fondo a blanco cuando está sonando*/
   background-image: url("./img/gradiente.gif");
-  opacity: 100%;
   
   background-repeat: no-repeat;
   background-position: top;
