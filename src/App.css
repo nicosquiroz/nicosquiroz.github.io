@@ -169,8 +169,10 @@ a:link:active, a:visited:active {
   color: rgb(239, 145, 236);
 }
 
-.jfuturo {
-  width: 100%;
+@font-face {
+  font-family: "Grotesk";   /*Can be any text*/
+  src: local("EuropaGrotesk"),
+    url("./fonts/EuropaGroteskSH-Med.otf") format("truetype");
 }
 
 

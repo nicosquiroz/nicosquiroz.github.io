@@ -1,0 +1,64 @@
+@font-face {
+    font-family: "Grotesk";   /*Can be any text*/
+    src: local("EuropaGrotesk"),
+      url("./fonts/EuropaGroteskSH-Med.otf") format("opentype");
+  }
+
+.Eljuegodelfuturo{
+    background-image: url("./img/casco.png");
+    background-position-x: 4.3svw;
+    background-position-y: 11vw;
+    background-size: 95%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+
+.jfuturo {
+    /* opacity: 0%; */
+  width: 100%;
+  /* display: inline-block; */
+  /* font-family: "Grotesk"; */
+  margin-top: -10.2svw;
+  object-position: 0svw -8svw;
+  
+}
+
+.jfuturo_txt {
+    /* margin-bottom: -12.9svw; */
+    padding: 0;
+    /* display: inline-block; */
+    /* margin-bottom: -17.9svw; */
+    /* margin-bottom: 20svw; */
+    white-space: nowrap;
+    background-color: black;
+    mix-blend-mode: luminosity; /*me gusta!*/
+    /* mix-blend-mode:difference; */ /*tendría que cambiar el fondo*/
+    /* opacity: 50%; */
+    /* padding-bottom: -40svw; */
+    /* width: 100%; */
+    
+    font-size:8.8svw;
+  text-align: center;
+  /* font-size:clamp(14px, 3.2vw, 6rem); */
+  font-family:"Grotesk";
+  color:rgb(248, 248, 248);
+  color: rgba(241,240,239,255); /*exacto al fondo de sección 1 */
+  /* color: rgb(198, 227, 205); */
+  /* mix-blend-mode:color-dodge; */
+  /* margin-top:-9.56%; el de arriba era 38 */
+  
+}
+
+.jfuturo_txt h1 {
+    height: 8.6svw;
+    /* color:rgb(204, 245, 246); */
+    color:rgb(203, 226, 242);
+}
+
+/* .jfuturo_txt span {
+    line-height: 7;
+    display: inline-block;
+    transform: scale(1,1.15);
+    transform-origin: 0 0;
+  } */

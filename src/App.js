@@ -8,9 +8,8 @@ import Header from './Header';
 import MusicSection from './MusicSection';
 import ScienceSection from './ScienceSection';
 import Sidebar from './sidebar';
+import Futuro from './jfuturo';
 import { BrowserRouter } from 'react-router-dom';
-
- import jfuturo from './img/movil 2.jpeg'
 
 
 
@@ -36,11 +35,10 @@ function App() {
 
     <div className="App">
 
-    
 
+      
 
       <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
-
       <h4> Nicolás S. Quiroz</h4>
       
       <div>
@@ -121,7 +119,12 @@ function App() {
 
     
     <span></span>
-    <img src={jfuturo} class="jfuturo" />
+
+
+
+
+    <Futuro/>
+
     </section>
 
     
