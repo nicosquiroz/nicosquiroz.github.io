@@ -112,7 +112,7 @@ html {
   /* margin-left: -4svw;
   margin-right: -4svw;  */
   opacity: 0.1;
-  filter: blur(20px) invert() saturate(10);
+  -webkit-filter: blur(20px) invert() saturate(10);
   mix-blend-mode:exclusion;
   pointer-events: none;
   /* mix-blend-mode:multiply; */
@@ -200,7 +200,8 @@ a:link:active, a:visited:active {
   /* background: 60%; */
   
   mix-blend-mode:luminosity;
-  filter:blur(3px) brightness(1.1);
+  -webkit-filter:blur(3px) brightness(1.1);
+  /* brightness(1.1); */
   /* width: 300%; */
   /* display:flow-root; */
   margin-right: -4svw;
