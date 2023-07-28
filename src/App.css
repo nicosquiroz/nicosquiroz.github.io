@@ -1,6 +1,6 @@
 html {
   scroll-behavior:smooth;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 .App {
   /* text-align: center; */
@@ -102,7 +102,6 @@ html {
   /* mix-blend-mode:multiply; */
 }
 body {
-  position: relative;
   /* background-image: url("./img/movil 2.jpeg");  */
   /* background-color: rgba(209, 204, 204, 0.592); */
   background-color: rgba(224, 219, 219, 0.432);
