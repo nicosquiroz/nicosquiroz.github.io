@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
-import { NavHashLink as Link} from 'react-router-hash-link';
+// import { NavHashLink as Link} from 'react-router-hash-link';
 // import { Link } from 'react-router-dom';
 
 // Implementando componentes para cambiar entre "Música" y "Ciencia"

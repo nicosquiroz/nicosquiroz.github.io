@@ -38,7 +38,8 @@
     /* padding-bottom: -40svw; */
     /* width: 100%; */
     
-    font-size:8.8svw;
+    /* font-size:8.8svw; */
+    font-size:clamp(1px, 8.8vw, 8rem);
   text-align: center;
   /* font-size:clamp(14px, 3.2vw, 6rem); */
   font-family:"Grotesk";
@@ -50,11 +51,23 @@
   
 }
 
+
 .jfuturo_txt h1 {
     height: 8.6svw;
     /* color:rgb(204, 245, 246); */
-    color:rgb(203, 226, 242);
+    color:rgb(156, 197, 226);
 }
+
+@media screen and (max-width: 500px) {
+  .jfuturo_txt{
+    font-size: 8.4svw;
+  }
+  .jfuturo_txt h1 {
+    height: 8svw;
+  }
+  
+}
+
 
 /* .jfuturo_txt span {
     line-height: 7;
