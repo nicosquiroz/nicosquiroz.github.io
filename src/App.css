@@ -114,6 +114,7 @@ html {
   opacity: 0.1;
   -webkit-filter: blur(20px) invert() saturate(10);
   mix-blend-mode:exclusion;
+  overflow:visible;
   pointer-events: none;
   /* mix-blend-mode:multiply; */
 }
