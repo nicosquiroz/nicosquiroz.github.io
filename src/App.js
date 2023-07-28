@@ -44,7 +44,7 @@ import Sound from "./sound";
       
 
       <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
-      <h4> Nicolás S. Quiroz</h4>
+      <h4> Nicolás S. Quiroz PROBANDO</h4>
       
       <div>
         
