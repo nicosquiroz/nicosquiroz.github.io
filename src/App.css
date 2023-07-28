@@ -177,16 +177,44 @@ a:link:active, a:visited:active {
 
 /*sonido*/
 
-.Sound {
-  /* transition: background-color 0.5s ease; */
-  transition: background-color 0.5s ease;
-    
-    /* -moz-transition: background-image 2s ease-in-out;
-    -webkit-transition: background-image 2s ease-in-out;
-    -o-transition: background-image 2s ease-in-out;
-    transition: background-image 2s ease-in-out; */
+
+.Sound.playing {
+
+  background-color: white; /*Cambia el color de fondo a blanco cuando está sonando*/
+  background-image: url("./img/gradiente.gif");
+  opacity: 100%;
+  
+  background-repeat: no-repeat;
+  background-position:top;
+  background-position-x: 100svw;
+  /* background-position-y: -50svw; */
+  background-size: contain;
+  /* background: 60%; */
+  
+  mix-blend-mode:luminosity;
+  filter:blur(1px) brightness(1);
+  /* width: 300%; */
+  /* display:flow-root; */
+  margin-right: -4svw;
+  margin-left: -4svw;
+  margin-top: -100svw;
+  margin-bottom: -3000svw;
+  padding:100svw;
+
+  overflow: visible;
+  text-align:center;
+  object-fit: contain;
+
   
 }
+
+@media screen and (max-width: 800px) {
+  .Sound.playing {
+    zoom: 300%;
+  }
+  
+}
+
 
 /* .App-logo {
   height: 40vmin;
