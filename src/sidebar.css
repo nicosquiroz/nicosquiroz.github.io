@@ -68,7 +68,7 @@
         font-size: smaller;
     }
     .sidebar{
-        content-visibility:hidden;
+        visibility:hidden;
         padding: 4rem;
     }
 }   
