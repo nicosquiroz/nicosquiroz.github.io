@@ -1,6 +1,8 @@
 .sidebar {
+    margin-top: 4.5rem;
     position: absolute;
     right: 4svw;
+    font-size: ;
   }
   
   /* .sidebar_icon {
@@ -51,13 +53,13 @@
   /* } */
   
    .sidebar_item p {
-    font-size: small;
+    font-size: smaller;
   } 
 
   
   
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
     
     .sidebar_item p {
         font-size: smaller;
@@ -66,6 +68,7 @@
         font-size: smaller;
     }
     .sidebar{
+        content-visibility:hidden;
         padding: 4rem;
     }
 }   

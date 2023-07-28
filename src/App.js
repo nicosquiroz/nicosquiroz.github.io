@@ -44,6 +44,9 @@ function App() {
       <div>
          <p>
            I'm a Data Scientist living in Viña del Mar, Chile.
+        </p><p>
+          <br></br>
+           Chaotically learning in the line between art and science.
         </p>
       </div>
     <div className='Blog'>
@@ -58,7 +61,7 @@ function App() {
   
   This is me starting to document what will be my learning process towards machine learning, beginning with being guided by a very meaningful project I've been working on for the past months.
   </p><p>
-  With my brilliant friend @jajamacka, we've been secretly working on the same creative project. Right now, she's making a video for music I made, and I'm creating the music for a video she made. This started as our first steps to finally create the things we wanted to create.
+  With my brilliant friend @jajamacka, we've been secretly working on the same creative project. It's called <a href="#in">Innertwist</a> Right now, she's making a video for music I made, and I'm creating the music for a video she made. This started as our first steps to finally create the things we wanted to create.
   </p>
   
   {/* <img src={gif} class="gif" />; */}
@@ -78,9 +81,10 @@ function App() {
       fondoblur
     </div>
 
-    <section className="Seccion2">
+    <section  className="Seccion2" >
 
-    <div className='Span'>
+    <div id="in" className='Span'>
+      <h1>INNERTWIST</h1>
     </div>
 
     <div className='gif'></div>
