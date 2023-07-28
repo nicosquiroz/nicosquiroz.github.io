@@ -1,7 +1,7 @@
 {
-  "main.css": "/static/css/main.26eb0cf4.chunk.css",
-  "main.js": "/static/js/main.fe0edbbe.chunk.js",
-  "main.js.map": "/static/js/main.fe0edbbe.chunk.js.map",
+  "main.css": "/static/css/main.ada5bebd.chunk.css",
+  "main.js": "/static/js/main.71cae49e.chunk.js",
+  "main.js.map": "/static/js/main.71cae49e.chunk.js.map",
   "static/js/1.54087e17.chunk.js": "/static/js/1.54087e17.chunk.js",
   "static/js/1.54087e17.chunk.js.map": "/static/js/1.54087e17.chunk.js.map",
   "static/js/2.dbaafb48.chunk.js": "/static/js/2.dbaafb48.chunk.js",
@@ -11,9 +11,9 @@
   "static/media/linea2.png": "/static/media/linea2.b8df56b0.png",
   "static/media/movil 2.jpeg": "/static/media/movil 2.3f801a85.jpeg",
   "static/media/App.css": "/static/media/gradiente.bb3479aa.gif",
-  "static/media/jfuturo.css": "/static/media/casco.c528509c.png",
-  "static/css/main.26eb0cf4.chunk.css.map": "/static/css/main.26eb0cf4.chunk.css.map",
+  "static/media/jfuturo.css": "/static/media/EuropaGroteskSH-Med.8caf9417.otf",
+  "static/css/main.ada5bebd.chunk.css.map": "/static/css/main.ada5bebd.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.bb6422e2881aecf220043955ee0615c0.js": "/precache-manifest.bb6422e2881aecf220043955ee0615c0.js",
+  "precache-manifest.fa68b178905572852610fd66779bbeae.js": "/precache-manifest.fa68b178905572852610fd66779bbeae.js",
   "service-worker.js": "/service-worker.js"
 }
