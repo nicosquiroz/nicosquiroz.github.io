@@ -36,12 +36,12 @@ self.__precacheManifest = [
     "url": "/static/media/gradiente.797abff4.gif"
   },
   {
-    "revision": "c528509c7202e4160b4921c24450c7bd",
-    "url": "/static/media/casco.c528509c.png"
-  },
-  {
     "revision": "8caf9417629687b72b90d76ca161f2a5",
     "url": "/static/media/EuropaGroteskSH-Med.8caf9417.otf"
+  },
+  {
+    "revision": "c528509c7202e4160b4921c24450c7bd",
+    "url": "/static/media/casco.c528509c.png"
   },
   {
     "revision": "00e00b94c39fc3589e5f562cd2dceef4",
