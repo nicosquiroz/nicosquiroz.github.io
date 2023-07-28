@@ -195,10 +195,10 @@ a:link:active, a:visited:active {
   filter:blur(1px) brightness(1);
   /* width: 300%; */
   /* display:flow-root; */
-  margin-right: -4svw;
+  /* margin-right: -4svw;
   margin-left: -4svw;
   margin-top: -100svw;
-  margin-bottom: -1000svw;
+  margin-bottom: -1000svw; */
   padding:100svw;
 
   overflow: visible;
