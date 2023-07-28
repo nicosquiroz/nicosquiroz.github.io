@@ -1,3 +1,6 @@
+html {
+  scroll-behavior:smooth;
+}
 .App {
   /* text-align: center; */
   margin-left:4svw;
@@ -22,9 +25,7 @@
   margin-bottom: 1rem;
 }
 
-.App a:after {
-  pointer-events: none;
-}
+
 
 @media screen and (max-width: 700px) {
   .Blog {
@@ -92,6 +93,7 @@
   opacity: 10%;
   filter: blur(20px) invert() saturate(10);
   mix-blend-mode:exclusion;
+  pointer-events: none;
   /* mix-blend-mode:multiply; */
 }
 body {

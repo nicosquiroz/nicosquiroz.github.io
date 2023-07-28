@@ -1,14 +1,19 @@
 import React, { useState } from 'react';
 import './App.css';
-
+import { NavHashLink as Link} from 'react-router-hash-link';
+// import { Link } from 'react-router-dom';
 
 // Implementando componentes para cambiar entre "Música" y "Ciencia"
 import Header from './Header';
 import MusicSection from './MusicSection';
 import ScienceSection from './ScienceSection';
 import Sidebar from './sidebar';
+import { BrowserRouter } from 'react-router-dom';
 
 // import gif from './img/gif.gif'
+
+
+
 
 
 function App() {
@@ -23,14 +28,15 @@ function App() {
     setShowMusicSection(false);
   };
   
+ 
   return (
-
-
+    <BrowserRouter>
+    
     
 
     <div className="App">
 
-
+    
 
 
       <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
@@ -51,6 +57,7 @@ function App() {
       </div>
     <div className='Blog'>
     
+  
     <h4>A journey towards Deep Music.</h4>
     <p>
   I can't be the only one who has experienced the mysterious feeling that deep dreaming evokes. It's strangely familiar and hypnotic to our eyes, yet so odd to watch.</p>
@@ -61,11 +68,11 @@ function App() {
   
   This is me starting to document what will be my learning process towards machine learning, beginning with being guided by a very meaningful project I've been working on for the past months.
   </p><p>
-  With my brilliant friend @jajamacka, we've been secretly working on the same creative project. It's called <a href="#in">Innertwist</a> Right now, she's making a video for music I made, and I'm creating the music for a video she made. This started as our first steps to finally create the things we wanted to create.
+  With my brilliant friend @jajamacka, we've been secretly working on the same creative project. It's called</p> 
+    <a href="#in">Innertwist</a> <p> Right now, she's making a video for music I made, and I'm creating the music for a video she made. This started as our first steps to finally create the things we wanted to create.
   </p>
   
   {/* <img src={gif} class="gif" />; */}
-  
   <p>
   The important thing now is that her video is simply beautiful to my eyes and mind. I see so many interpretations, so chaotic yet concise and ordered at the same time. She loves programming, as you might notice.
   </p><p>
@@ -81,9 +88,9 @@ function App() {
       fondoblur
     </div>
 
-    <section  className="Seccion2" >
+    <section id="in" className="Seccion2" >
 
-    <div id="in" className='Span'>
+    <div className='Span'>
       <h1>INNERTWIST</h1>
     </div>
 
@@ -96,8 +103,8 @@ function App() {
    
     <Header
         onMusicClick={handleMusicClick}
-        onScienceClick={handleScienceClick}
-      />
+        onScienceClick={handleScienceClick}/>
+      
       {showMusicSection ? <MusicSection /> : <ScienceSection />}
 
 
@@ -121,8 +128,9 @@ function App() {
 
 
 
-  
+     </BrowserRouter>
   );
+ 
 }
 
 export default App;
