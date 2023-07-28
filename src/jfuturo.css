@@ -58,9 +58,9 @@
     color:rgb(156, 197, 226);
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .jfuturo_txt{
-    font-size: 8.4svw;
+    font-size: 8.2svw;
   }
   .jfuturo_txt h1 {
     height: 8svw;
