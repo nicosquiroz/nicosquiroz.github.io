@@ -1,0 +1,28 @@
+import React, { Component } from "react";
+import './App.css'
+import {Howl} from 'howler';
+
+const audioClips = [
+    {sound: "./sounds/cancion 1.mp3", label: "Canción"}
+  ]
+  
+
+soundPlay = (src) => {
+    const sound = new Howl ({
+        src,
+        html5: true
+    })
+}
+
+RenderButtonSound = () => {
+    return audioClips.map((soundObj, index) => {
+        return(
+            <button key={index} onClick={() => this.soundPlay(soundObj.sound)}>
+                {soundObj.label}
+            </button>
+        )
+    })
+}
+
+
+export default RenderButtonSound;

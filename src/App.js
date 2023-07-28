@@ -13,9 +13,13 @@ import { BrowserRouter } from 'react-router-dom';
 
 
 
+    
+import Sound from "./sound";
 
 
-function App() {
+
+
+ function App() {
   // Implementando componentes para cambiar entre "Música" y "Ciencia"
   const [showMusicSection, setShowMusicSection] = useState(true);
 
@@ -31,7 +35,8 @@ function App() {
   return (
     <BrowserRouter>
     
-    
+   
+
 
     <div className="App">
 
@@ -68,7 +73,8 @@ function App() {
   </p><p>
   With my brilliant friend <a href='http://instagram.com/jajamacka'>Macka Garrido</a>, we've been secretly working on the same creative project. It's called <a href="#in">Innertwist</a>. Right now, she's making a video for music I made, and I'm creating the music for a video she made. This started as our first steps to finally create the things we wanted to create.
   </p>
-  
+  {/* <p><b><u>Give me a sound! (pantalla en blanco)</u></b></p> */}
+  <aside className={'sidebar2'}><Sound/></aside>
   {/* <img src={gif} class="gif" />; */}
   <p>
   The important thing now is that her video is simply beautiful to my eyes and mind. I see so many interpretations, so chaotic yet concise and ordered at the same time. She loves programming, as you might notice.

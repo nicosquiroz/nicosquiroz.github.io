@@ -40,7 +40,7 @@ const Sidebar = () => {
             <div className="sidebar_item">
               <i className="fas fa-user"></i>
               
-              <p>El Juego del Futuro</p>
+              <p><a href="#juego">El Juego del Futuro</a></p>
 
             </div>
 

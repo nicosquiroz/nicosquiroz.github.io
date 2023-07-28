@@ -4,7 +4,7 @@ import "./jfuturo.css"
 
 const Futuro = () => {
   return (
-       <section className='Eljuegodelfuturo'>
+       <section id="juego" className='Eljuegodelfuturo'>
        <div className='jfuturo_txt'>
       <h1 >EL JUEGO DEL FUTURO</h1>
         </div> 
