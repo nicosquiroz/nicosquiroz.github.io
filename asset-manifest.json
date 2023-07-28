@@ -1,7 +1,7 @@
 {
-  "main.css": "/static/css/main.ada5bebd.chunk.css",
-  "main.js": "/static/js/main.71cae49e.chunk.js",
-  "main.js.map": "/static/js/main.71cae49e.chunk.js.map",
+  "main.css": "/static/css/main.98d34c89.chunk.css",
+  "main.js": "/static/js/main.a5260d8c.chunk.js",
+  "main.js.map": "/static/js/main.a5260d8c.chunk.js.map",
   "static/js/1.54087e17.chunk.js": "/static/js/1.54087e17.chunk.js",
   "static/js/1.54087e17.chunk.js.map": "/static/js/1.54087e17.chunk.js.map",
   "static/js/2.dbaafb48.chunk.js": "/static/js/2.dbaafb48.chunk.js",
@@ -12,8 +12,8 @@
   "static/media/movil 2.jpeg": "/static/media/movil 2.3f801a85.jpeg",
   "static/media/App.css": "/static/media/gradiente.bb3479aa.gif",
   "static/media/jfuturo.css": "/static/media/casco.c528509c.png",
-  "static/css/main.ada5bebd.chunk.css.map": "/static/css/main.ada5bebd.chunk.css.map",
+  "static/css/main.98d34c89.chunk.css.map": "/static/css/main.98d34c89.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.c558a0d9dafd94860bdadc2f88c5766b.js": "/precache-manifest.c558a0d9dafd94860bdadc2f88c5766b.js",
+  "precache-manifest.9c3639c6ad471352ca65eb1ed64eb9db.js": "/precache-manifest.9c3639c6ad471352ca65eb1ed64eb9db.js",
   "service-worker.js": "/service-worker.js"
 }
