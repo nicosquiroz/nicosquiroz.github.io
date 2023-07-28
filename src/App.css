@@ -176,7 +176,7 @@ a:link:active, a:visited:active {
 
 
 /*sonido*/
-.Sound {
+/* .Sound {
   /* transition: background-color 0.5s ease; */
   transition: background-color 0.5s ease;
     
@@ -185,7 +185,7 @@ a:link:active, a:visited:active {
     -o-transition: background-image 2s ease-in-out;
     transition: background-image 2s ease-in-out; */
   
-}
+} */
 
 .Sound.playing {
 
