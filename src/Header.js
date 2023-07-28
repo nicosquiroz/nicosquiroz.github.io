@@ -3,9 +3,9 @@ import linea from './img/linea2.png'
 import punto from './img/punto.png'
 const Header = ({ onMusicClick, onScienceClick }) => {
   return (
-    <header>
+    <header className="header">
       <div>
-      <div className='Puntoo'>
+      <div>
         <img src={punto} alt="Punto" className='Punto'/>
       </div>
         <button onClick={onMusicClick}>Music</button>
