@@ -6,8 +6,16 @@
 
 -Colocar temas en etiqueta aside
 
--Colocar botón en el footer solo para Móvil
+-Colocar botones en el footer solo para Móvil - Listo (lo hice como sticky header)
 
+27/Juñ
+
+- Diseño de la página
+- Hipervínculos
+- Implementación de reproducción de sonido con "isPlaying", y cambio en CSS en la página durante reproducción (Sound.playing {})
+
+29/Jul
+- Iniciar backend en FastAPI
 
 
 
