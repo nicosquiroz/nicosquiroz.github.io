@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import {Howl} from 'howler';
 import "./sound.css";
 
+import { disableBodyScroll, enableBodyScroll, clearAllBodyScrollLocks } from 'body-scroll-lock';
+
+
 const audioClips = [
     // {sound: "https://freetestdata.com/wp-content/uploads/2021/09/Free_Test_Data_100KB_MP3.mp3", label: "Canción"},
     {sound: "./sounds/cancion1.mp3", label: "Give me a sound!"}
@@ -9,7 +12,14 @@ const audioClips = [
 
 class Sound extends Component {
  /*definición de bloqueos de scroll en el body*/
- 
+ disableScroll = () => {
+  // Bloquear el scroll del body
+  disableBodyScroll(document.body);
+};
+enableScroll = () => {
+  // Habilitar el scroll del body
+  enableBodyScroll(document.body);
+};
 
  
  
@@ -32,20 +42,29 @@ class Sound extends Component {
       this.sound.stop();
     }
     
+    this.disableScroll();
     this.sound = new Howl ({
         src,
         html5: true,
         onplay: () => {
           this.setState({ isPlaying: true });
+          this.disableScroll(); /*aquí se responde cuando está sonando*/
+          console.log("disabled");
         },
         onend: () => {
           this.setState({ isPlaying: false });
+          this.disableScroll();
+          console.log("enabled");
         },
         onpause: () => {
           this.setState({ isPlaying: false });
+          this.disableScroll();
+          console.log("enabled");
         },
         onstop: () => {
           this.setState({ isPlaying: false });
+          this.disableScroll();
+          console.log("enabled");
         },
         
     });
@@ -73,6 +92,22 @@ RenderButtonSound = () => {
 
 };
 
+// componentDidMount() {
+//   // Agregar un evento para detectar cuando el sonido se detiene (termina)
+//     this.sound.on('end', this.handleSoundEnd);
+//     console.log("se activó la de apagado");
+  
+// }
+
+// componentWillUnmount() {
+//   // Eliminar el evento cuando el componente se desmonta
+// {this.sound.off('end', this.handleSoundEnd)
+
+// }
+
+// componentWillUnmount() {
+//   clearAllBodyScrollLocks();
+// }
 
 render(){
   const { isPlaying } = this.state;
