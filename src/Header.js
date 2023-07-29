@@ -8,11 +8,11 @@ const Header = ({ onMusicClick, onScienceClick }) => {
       <div>
         <img src={punto} alt="Punto" className='Punto'/>
       </div>
-        <button onClick={onMusicClick}>Music</button>
+        <button className="buttonHeader" onClick={onMusicClick}>Music</button>
         {/* <button onCLick={onBothClick}>Both</button> */}
         <img src={linea} alt="Linea"/>
         
-        <button onClick={onScienceClick}>Science</button>
+        <button className="buttonHeader" onClick={onScienceClick}>Science</button>
       </div>
     </header>
   );
