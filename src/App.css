@@ -234,7 +234,7 @@ a:link:active, a:visited:active {
   
 }
 
-@media screen and (max-width: 800px) {
+/* @media screen and (max-width: 800px) {
   .Sound.playing {
     zoom: 200%;
     margin-top: -100svw;
@@ -246,7 +246,7 @@ a:link:active, a:visited:active {
     
   }
   
-}
+} */
 
 
 
