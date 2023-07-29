@@ -8,14 +8,14 @@
 
 -Colocar botones en el footer solo para Móvil - Listo (lo hice como sticky header)
 
-27/Juñ
+29/Jul
 
 - Diseño de la página (CSS)
 - Hipervínculos
 - Implementación de reproducción de sonido con "isPlaying", y cambio en CSS en la página durante reproducción (Sound.playing {})
 - Nueva sección "El juego del futuro"
 
-29/Jul
+Ahora:
 - Iniciar backend en FastAPI
 
 
