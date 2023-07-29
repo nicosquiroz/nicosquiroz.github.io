@@ -10,9 +10,10 @@
 
 27/Juñ
 
-- Diseño de la página
+- Diseño de la página (CSS)
 - Hipervínculos
 - Implementación de reproducción de sonido con "isPlaying", y cambio en CSS en la página durante reproducción (Sound.playing {})
+- Nueva sección "El juego del futuro"
 
 29/Jul
 - Iniciar backend en FastAPI
