@@ -16,7 +16,7 @@
 - Nueva sección "El juego del futuro"
 
 Ahora:
-- Iniciar backend en FastAPI
+- Iniciar backend en FastAPI. Objetivo: petición de datos para interactuar con su visualización en la interfaz.
 
 
 
