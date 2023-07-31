@@ -17,6 +17,7 @@
 
 Ahora:
 - Iniciar backend en FastAPI. Objetivo: petición de datos para interactuar con su visualización en la interfaz.
+- Voy a hacer un test de unir React - FastAPI con un algoritmo en Python que hice en un curso de astronomía.
 
 
 
