@@ -9,12 +9,10 @@ import MusicSection from './MusicSection';
 import ScienceSection from './ScienceSection';
 import Sidebar from './sidebar';
 import Futuro from './jfuturo';
-import { BrowserRouter } from 'react-router-dom';
-
-
-
-    
+import Filtros from './filtros';
 import Sound from "./sound";
+
+import { BrowserRouter } from 'react-router-dom';
 
 
 
@@ -31,6 +29,10 @@ import Sound from "./sound";
     setShowMusicSection(false);
   };
   
+
+
+  
+
  
   return (
     <BrowserRouter>
@@ -91,6 +93,18 @@ import Sound from "./sound";
       fondoblur
     </div>
 
+
+
+
+
+
+
+
+
+
+
+
+
     <section id="in" className="Seccion2" >
 
     <div className='Span'>
@@ -116,8 +130,25 @@ import Sound from "./sound";
 
       LALALA
       <div style={{marginTop: 50 + 'em'}}>
-      analytics
+      {/* analytics */}
       </div>
+
+
+
+
+
+
+{/* TEST CON FILTROS */}
+
+<Filtros/>
+
+
+
+
+
+
+
+
 
 
 

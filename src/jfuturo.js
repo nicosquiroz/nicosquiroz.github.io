@@ -8,7 +8,7 @@ const Futuro = () => {
        <div className='jfuturo_txt'>
       <h1 id="titulo2" >EL JUEGO DEL FUTURO</h1>
         </div> 
-       <img src={jfuturo} alt="cascofuturo" class="jfuturo"/> 
+       <img src={jfuturo} alt="cascofuturo" className="jfuturo"/> 
        </section>
   );
 };
