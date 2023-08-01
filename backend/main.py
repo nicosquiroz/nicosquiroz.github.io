@@ -8,13 +8,13 @@ from i_to_base64 import i_to_base64
 from fastapi.middleware.cors import CORSMiddleware
 
 
-# Cargar la imagen y seleccionar una de las matrices
-image_file = '/Users/nico/Desktop/progr/react-deploy/backend/galaxia.png'
-f_color0 = imageio.imread(image_file, mode='RGB')
-f_color = f_color0[0:590, :]
+# # Cargar la imagen y seleccionar una de las matrices
+# image_file = '/Users/nico/Desktop/progr/react-deploy/backend/galaxia.png'
+# f_color0 = imageio.imread(image_file, mode='RGB')
+# f_color = f_color0[0:590, :]
 
-# Convertir a escala de grises
-fr = f_color[:, :, 0]
+# # Convertir a escala de grises
+# fr = f_color[:, :, 0]
 
 
 
@@ -28,6 +28,7 @@ app=FastAPI()
 origins = [
     "http://localhost:3000",
     "http://127.0.0.1:3000",
+    "nicosquiroz.com",
 ]
 
 # Agregar el middleware de CORS
@@ -62,9 +63,9 @@ def apply_sqrt_filter():
 def apply_gaussian_filter():
     return i_to_base64(gaussian_filter(fr))
 
-@app.post("/upload_image")
-def apply_upload_image():
-    return i_to_base64()
+# @app.post("/upload_image")
+# def apply_upload_image():
+#     return i_to_base64()
 # @app.get("/boxcar_filter")
 # def apply_boxcar_filter():
 #     return i_to_base64(boxcar_filter(fr))
