@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+imageio
+numpy
+scipy
+matplotlib.pyplot
+io
+base64
+PIL 
