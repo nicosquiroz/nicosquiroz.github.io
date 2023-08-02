@@ -50,7 +50,8 @@ html {
   padding-right: 4svw;
 }
 .Seccion2 > div > img {
-  size: 50svw;
+  max-width: 50%;
+  height: auto;
   /* display: block; */
   margin-right: 1svw;
   margin-left: 1svw;
