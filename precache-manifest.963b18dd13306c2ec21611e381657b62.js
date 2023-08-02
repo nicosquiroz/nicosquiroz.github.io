@@ -36,12 +36,12 @@ self.__precacheManifest = [
     "url": "/static/media/movil 2.3f801a85.jpeg"
   },
   {
-    "revision": "c528509c7202e4160b4921c24450c7bd",
-    "url": "/static/media/casco.c528509c.png"
-  },
-  {
     "revision": "8caf9417629687b72b90d76ca161f2a5",
     "url": "/static/media/EuropaGroteskSH-Med.8caf9417.otf"
+  },
+  {
+    "revision": "c528509c7202e4160b4921c24450c7bd",
+    "url": "/static/media/casco.c528509c.png"
   },
   {
     "revision": "86566476e215bb3dc7977cf185c08353",
