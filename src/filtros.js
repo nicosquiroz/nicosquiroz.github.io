@@ -34,7 +34,7 @@ import debounce from 'lodash.debounce';
 
 
     const fetchImageData = (filter) => {
-      Axios.get("http://nsq-production.up.railway.app/apply_filter/" +filter, { responseType: 'arraybuffer' }).then((res) => {
+      Axios.get("https://nsq-production.up.railway.app/apply_filter/" +filter, { responseType: 'arraybuffer' }).then((res) => {
         const base64String = btoa(
           new Uint8Array(res.data).reduce(
             (data, byte) => data + String.fromCharCode(byte),
@@ -70,7 +70,7 @@ const handleFileUpload = (event) => {
             console.log(file);
             formData.append("file", file);
 
-  Axios.post("http://nsq-production.up.railway.app/testimage/", formData, { responseType: 'arraybuffer' }).then((res) => {
+  Axios.post("https://nsq-production.up.railway.app/testimage/", formData, { responseType: 'arraybuffer' }).then((res) => {
     // , { responseType: 'arraybuffer' }
     console.log(res.data);
     
