@@ -25,7 +25,7 @@ Ahora:
   
 Mayor obstaculo: las imágenes que eran recibidas en @app.post estaban en un formato diferente que las cargadas directamente, por lo que las funciones de filtro entregaban otro tipo de datos y la información de vuelta a React no podía ser leída correctamente.
       
-- Luego, desplegué el backend en Railway.app. Se pueden usar los filtros y cargar imagenes en el servidor.
+- Luego, **desplegué el backend en Railway.app. Se pueden usar los filtros y cargar imagenes en el servidor. React desplegado en GitHub Pages.**
 - Siguiente: La imagen cargada queda guardada en el servidor y no se reinicia. Usé un "useState" para que al cargarse por primera vez la página cargue una imagen por defecto, pero aún no funciona. Y ajustar css para contener cualquier imagen en el mismo espacio.
 
       
