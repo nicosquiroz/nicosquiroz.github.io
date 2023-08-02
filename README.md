@@ -21,7 +21,7 @@ Ahora:
 
 1/Ago
 - **Test exitoso.** En la primera etapa (en local), pude conectar Backend con Frontend a través de endpoints GET, cada uno con un filtro diferente que se aplica a una imagen en el algoritmo de python. La imagen "galaxia.png" es cargada en el backend, en el directorio principal.
-- Después de confirmar el funcionamiento de todos los filtros, agregué un <input> para poder cargar cualquier imagen, y un endpoint POST para recibirla. La imagen se almacena en una variable global, por lo que después se pueden hacer peticiones para aplicar los filtros a esa imagen cargada.
+- Después de confirmar el funcionamiento de todos los filtros, agregué un <input> para poder cargar cualquier imagen, y un endpoint POST para recibirla. La imagen se almacena en una variable global, por lo que después se pueden hacer peticiones para aplicar los filtros a esa imagen cargada. OBJETIVO: Interactuar con el algoritmo de python a través de la interfaz.
   
 Mayor obstaculo: las imágenes que eran recibidas en @app.post estaban en un formato diferente que las cargadas directamente, por lo que las funciones de filtro entregaban otro tipo de datos y la información de vuelta a React no podía ser leída correctamente.
       
@@ -29,6 +29,15 @@ Mayor obstaculo: las imágenes que eran recibidas en @app.post estaban en un for
 - Siguiente: La imagen cargada queda guardada en el servidor y no se reinicia. Usé un "useState" para que al cargarse por primera vez la página cargue una imagen por defecto, pero aún no funciona. Y ajustar css para contener cualquier imagen en el mismo espacio.
 
       
+
+
+
+
+
+
+
+
+
 
 
 
