@@ -43,7 +43,7 @@ load_precached_image()
 app=FastAPI()
 
 
-# app.mount("/", StaticFiles(directory="./"), name="static")
+app.mount("/", StaticFiles(directory="./"), name="static")
 
 
 
