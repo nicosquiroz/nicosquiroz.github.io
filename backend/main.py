@@ -100,9 +100,9 @@ async def apply_filter(filter_name: str):
 
 
 
-@app.get("/sin_filter")
-def apply_sin_filter():
-    return i_to_base64(sin_filter(fr))
+# @app.get("/sin_filter")
+# def apply_sin_filter():
+#     return i_to_base64(sin_filter(fr))
 
 # @app.get("/exp_filter")
 # def apply_exp_filter():
