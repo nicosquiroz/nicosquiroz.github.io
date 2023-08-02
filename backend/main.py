@@ -41,6 +41,8 @@ load_precached_image()
 
 
 app=FastAPI()
+
+
 app.mount("/", StaticFiles(directory="./"), name="static")
 
 
@@ -74,9 +76,9 @@ app.add_middleware(
 def index():
     return RedirectResponse("/docs", status_code=308)
 
+
+
 @app.get("/apply_filter/{filter_name}")
-
-
 async def apply_filter(filter_name: str):
     # Cargar la imagen desde la ubicación donde se almacenó previamente
     global uploaded_image
