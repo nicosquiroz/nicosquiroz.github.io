@@ -29,6 +29,9 @@ Mayor obstaculo: las imágenes que eran recibidas en @app.post estaban en un for
 - Siguiente: La imagen cargada queda guardada en el servidor y no se reinicia. Usé un "useState" para que al cargarse por primera vez la página cargue una imagen por defecto, pero aún no funciona. Y ajustar css para contener cualquier imagen en el mismo espacio.
 
       
+Objetivos siguientes.
+- Transformar el frontend de este test en una visualización de cómo se aplican los filtros o convolucionan imágenes.
+- Implementar un modelo más complejo. (Quizá ML básico)
 
 
 
