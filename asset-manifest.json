@@ -1,7 +1,7 @@
 {
-  "main.css": "/static/css/main.55c1b9c5.chunk.css",
-  "main.js": "/static/js/main.5d77af5e.chunk.js",
-  "main.js.map": "/static/js/main.5d77af5e.chunk.js.map",
+  "main.css": "/static/css/main.026258ab.chunk.css",
+  "main.js": "/static/js/main.d316f8e5.chunk.js",
+  "main.js.map": "/static/js/main.d316f8e5.chunk.js.map",
   "static/js/1.f4a2a6c0.chunk.js": "/static/js/1.f4a2a6c0.chunk.js",
   "static/js/1.f4a2a6c0.chunk.js.map": "/static/js/1.f4a2a6c0.chunk.js.map",
   "static/js/2.cc2ef1f0.chunk.js": "/static/js/2.cc2ef1f0.chunk.js",
@@ -11,10 +11,10 @@
   "static/media/App.css": "/static/media/gradiente.797abff4.gif",
   "static/media/linea2.png": "/static/media/linea2.b8df56b0.png",
   "static/media/movil 2.jpeg": "/static/media/movil 2.3f801a85.jpeg",
-  "static/media/jfuturo.css": "/static/media/EuropaGroteskSH-Med.8caf9417.otf",
+  "static/media/jfuturo.css": "/static/media/casco.c528509c.png",
   "static/media/diagrama.png": "/static/media/diagrama.86566476.png",
-  "static/css/main.55c1b9c5.chunk.css.map": "/static/css/main.55c1b9c5.chunk.css.map",
+  "static/css/main.026258ab.chunk.css.map": "/static/css/main.026258ab.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.77e9db8d2abae149436015e178a36acf.js": "/precache-manifest.77e9db8d2abae149436015e178a36acf.js",
+  "precache-manifest.1683bb47bd83e3cdf70817a954631bf2.js": "/precache-manifest.1683bb47bd83e3cdf70817a954631bf2.js",
   "service-worker.js": "/service-worker.js"
 }
