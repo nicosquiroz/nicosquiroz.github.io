@@ -31,7 +31,7 @@ Mayor obstaculo: las imágenes que eran recibidas en @app.post estaban en un for
       
 Objetivos siguientes.
 - Transformar el frontend de este test en una visualización de cómo se aplican los filtros o convolucionan imágenes.
-- Implementar un modelo más complejo. (Quizá ML básico)
+- Implementar un modelo más complejo. (Quizá ML básico) - No he hecho deployment de ML, pero entiendo que puedo hacer un modelo y luego hacer el mismo tipo de conexiones a través de la API con FastAPI.
 
 
 
