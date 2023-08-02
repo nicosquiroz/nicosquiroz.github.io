@@ -1,0 +1,64 @@
+
+.aslideshow {
+    width: 300px; /* Ajusta el ancho según tus necesidades */
+    height: 50px; /* Ajusta la altura según tus necesidades */
+    overflow: hidden;
+    border: 1px solid #ccc;
+    position: relative;
+}
+
+
+.slideshow {
+    height: 200px;
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    transform: translate3d(0, 0, 0);
+  }
+
+.slideshow > div {
+    height: 200px;
+    width: 2526px;
+    /* background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/collage.jpg); */
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    transform: translate3d(0, 0, 0);
+  }
+  .slide-text {
+  animation: moveSlideshow 12s linear infinite;
+}
+.aslide-container {
+    display: flex;
+    animation: slideAnimation 10s linear infinite; /* Ajusta el tiempo según tus necesidades */
+}
+
+.aslide-text {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: slideAnimation 10s infinite; /* Ajusta el tiempo según tus necesidades */
+}
+
+@keyframes aslideAnimation {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%); /* Ajusta el porcentaje según la cantidad de textos */
+    }
+} 
+
+
+
+
+@keyframes moveSlideshow {
+    100% { 
+      transform: translateX(-66.6666%);  
+    }
+  }
