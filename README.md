@@ -19,6 +19,30 @@ Ahora:
 - Iniciar backend en FastAPI. Objetivo: petición de datos para interactuar con su visualización en la interfaz.
 - Voy a hacer un test de unir React - FastAPI con un algoritmo en Python que hice en un curso de astronomía.
 
+1/Ago
+- **Test exitoso.** En la primera etapa (en local), pude conectar Backend con Frontend a través de endpoints GET, cada uno con un filtro diferente que se aplica a una imagen en el algoritmo de python. La imagen "galaxia.png" es cargada en el backend, en el directorio principal.
+- Después de confirmar el funcionamiento de todos los filtros, agregué un <input> para poder cargar cualquier imagen, y un endpoint POST para recibirla. La imagen se almacena en una variable global, por lo que después se pueden hacer peticiones para aplicar los filtros a esa imagen cargada. OBJETIVO: Interactuar con el algoritmo de python a través de la interfaz.
+  
+Mayor obstaculo: las imágenes que eran recibidas en @app.post estaban en un formato diferente que las cargadas directamente, por lo que las funciones de filtro entregaban otro tipo de datos y la información de vuelta a React no podía ser leída correctamente.
+      
+- Luego, **desplegué el backend en Railway.app. Se pueden usar los filtros y cargar imagenes en el servidor. React desplegado en GitHub Pages.**
+- Siguiente: La imagen cargada queda guardada en el servidor y no se reinicia. Usé un "useState" para que al cargarse por primera vez la página cargue una imagen por defecto, pero aún no funciona. Y ajustar css para contener cualquier imagen en el mismo espacio.
+
+      
+Objetivos siguientes.
+- Transformar el frontend de este test en una visualización de cómo se aplican los filtros o convolucionan imágenes.
+- Implementar un modelo más complejo. (Quizá ML básico) - No he hecho deployment de ML, pero entiendo que puedo hacer un modelo y luego hacer el mismo tipo de conexiones a través de la API con FastAPI.
+
+
+
+
+
+
+
+
+
+
+
 
 
 
