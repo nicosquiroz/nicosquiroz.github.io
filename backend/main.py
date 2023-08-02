@@ -70,13 +70,13 @@ app.add_middleware(
 
 
 
+@app.get("/", include_in_schema=False)
+def index():
+    return RedirectResponse("/docs", status_code=308)
 
 @app.get("/apply_filter/{filter_name}")
 
 
-@app.get("/", include_in_schema=False)
-def index():
-    return RedirectResponse("/docs", status_code=308)
 async def apply_filter(filter_name: str):
     # Cargar la imagen desde la ubicación donde se almacenó previamente
     global uploaded_image
