@@ -12,14 +12,29 @@ import debounce from 'lodash.debounce';
 
 
 
-const Filtros = () =>{
+ const Filtros = () =>{
 
 
     const [imageData, setImageData] = useState("");
 
-  
+    // // Realizar una solicitud GET para obtener la imagen precargada al cargar el componente
+    // useEffect(() => {
+    //   Axios.get("http://127.0.0.1:8000/apply_filter/nofilter")  // Puedes usar cualquier filtro aquí
+    //     .then((res) => {
+    //       setImageData(res.data);
+    //     })
+    //     .catch((error) => {
+    //       console.log(error);
+    //     });
+    // }, []); 
+
+
+
+
+
+
     const fetchImageData = (filter) => {
-      Axios.get("http://127.0.0.1:8000/" +filter, { responseType: 'arraybuffer' }).then((res) => {
+      Axios.get("http://nsq-production.up.railway.app/apply_filter/" +filter, { responseType: 'arraybuffer' }).then((res) => {
         const base64String = btoa(
           new Uint8Array(res.data).reduce(
             (data, byte) => data + String.fromCharCode(byte),
@@ -32,12 +47,12 @@ const Filtros = () =>{
     
         // Establece el enlace base64 en el estado para mostrar la imagen
         setImageData(imageData);
-        console.log("fetching!")
+        console.log("fetching!");
         });
     };
     
     useEffect(() => {
-      fetchImageData();
+      fetchImageData('nofilter');
     }, []);
 
     const setOriginal = debounce(() => {
@@ -47,22 +62,55 @@ const Filtros = () =>{
 
 
 
+//POST DATA
 
-          //POST DATA
-
-          const handleFileUpload = (event) => {
-            const file = event.target.files[0];
+const handleFileUpload = (event) => {
+  const file = event.target.files[0];
             const formData = new FormData();
-            formData.append("image", file);
+            console.log(file);
+            formData.append("file", file);
+
+  Axios.post("http://nsq-production.up.railway.app/testimage/", formData, { responseType: 'arraybuffer' }).then((res) => {
+    // , { responseType: 'arraybuffer' }
+    console.log(res.data);
+    
+    const base64String = btoa(
+      new Uint8Array(res.data).reduce(
+        (data, byte) => data + String.fromCharCode(byte),
+        ''
+      )
+    );
+
+    // Genera el enlace base64 de la imagen
+    const imageData = `data:image/png;base64,${base64String}`;
+
+    // Establece el enlace base64 en el estado para mostrar la imagen
+    setImageData(imageData);
+    console.log("devuelta!");
+    }).catch(function(err) {
+      console.log(err);                          
+  });
+};
+
+
+
+          // DATA
+          
+          // const handleFileUpload = (event) => {
+          //   const file = event.target.files[0];
+          //   const formData = new FormData();
+          //   console.log(file);
+          //   formData.append("file", file);
         
-            Axios.post("http://127.0.0.1:8000/upload_image", formData, {
-              headers: {
-                "Content-Type": "multipart/form-data",
-              },
-            }).then((res) => {
-              setImageData(res.data); // La respuesta del backend es la imagen procesada en base64
-            });
-          };
+          //   Axios.post("http://127.0.0.1:8000/testimage", formData, {
+          //     // headers: {
+          //     //   "Content-Type": "multipart/form-data",
+          //     // },
+          //   }).then((res) => {
+          //       console.log(res.data);
+          //     // setImageData(res.data); // La respuesta del backend es la imagen procesada en base64
+          //   });
+          // };
 
 
 
@@ -77,7 +125,8 @@ const Filtros = () =>{
         <div className='seccion2'>
            
              <div>
-        {imageData && <img src={imageData} alt="foto"></img>}
+             <img src={imageData} alt="Imagen" />
+        {/* {imageData && <img src={imageData} alt="foto"></img>} */}
         
 
         <div>
@@ -100,13 +149,17 @@ const Filtros = () =>{
 
                     // overflow: 'visible',
                   }}>Gaussian</div> */}
+
+
+
+                <button className="buttonHeader" onClick={() => fetchImageData('nofilter')}>Original</button>
                 <button className="buttonHeader" onClick={() => fetchImageData('gaussian_filter')}>Gaussian</button>
                 <button className="buttonHeader" onClick={() => fetchImageData('exp_filter')}>Exp</button>
                 <button className="buttonHeader" onClick={() => fetchImageData('sin_filter')}>Sin</button>
                 <button className="buttonHeader" onClick={() => fetchImageData('sqrt_filter')}>Sqrt</button>
 
 
-                <input type="file" onChange={handleFileUpload} />
+                <input name='file' type="file" onChange={handleFileUpload} />
         
                
                      </div>

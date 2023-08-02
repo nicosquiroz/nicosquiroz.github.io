@@ -14,7 +14,8 @@ import Sound from "./sound";
 
 import { BrowserRouter } from 'react-router-dom';
 
-
+import Diagrama from './img/diagrama.png';
+import './slideshow.css';
 
 
  function App() {
@@ -46,7 +47,7 @@ import { BrowserRouter } from 'react-router-dom';
       
 
       <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
-      <h4> Nicolás S. Quiroz PROBANDO 2</h4>
+      <h4> Nicolás S. Quiroz</h4>
       
       <div>
         
@@ -114,10 +115,20 @@ import { BrowserRouter } from 'react-router-dom';
     <div className='gif'></div>
 
 
+    {/* <div className="slideshow"><div><p className='slide-text'>Innertwist is composed by Mackarena Garrido Strelow and Nicolás S. Quiroz.</p></div></div> */}
+    <div>
+    {/* <p className="intxt">
+    Como pueden ver en el video, amerita entrar en el mundo de la programación. Qué oportunidad más perfecta. Nos adentraremos en el análisis de imágenes y sonido, y cómo se mezclan a través del arte y tecnología. 
+    </p> */}
+   <p className="intxt">
+    Audiovisual proyect started as a first approach to music and video. It consist in two stages. We’re now in the second stage. <b>And this is the point of view of Nico.</b>
+    <br></br>Puedes explorar ambas áreas en detalle. Música y ciencia.</p>
+    {/* <img className="diagrama" src={Diagrama}/> */}
+    </div>
 
     <div className='Span'></div>
 
-   
+    
     <Header
         onMusicClick={handleMusicClick}
         onScienceClick={handleScienceClick}/>
