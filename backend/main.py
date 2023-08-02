@@ -7,7 +7,7 @@ import imageio
 import numpy as np
 from i_to_base64 import i_to_base64
 from fastapi.middleware.cors import CORSMiddleware
-
+from fastapi.staticfiles import StaticFiles
 
 # Cargar imagen que envíe el frontend:
 import os
@@ -41,6 +41,8 @@ load_precached_image()
 
 
 app=FastAPI()
+app.mount("/", StaticFiles(directory="./"), name="static")
+
 
 
 # Configurar las opciones de origen permitidos para CORS
