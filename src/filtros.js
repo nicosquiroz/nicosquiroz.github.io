@@ -70,7 +70,7 @@ const handleFileUpload = (event) => {
             console.log(file);
             formData.append("file", file);
 
-  Axios.post("https://nsq-production.up.railway.app/testimage/", formData, { responseType: 'arraybuffer' }).then((res) => {
+  Axios.post("https://nsq-production.up.railway.app/testimage", formData, { responseType: 'arraybuffer' }).then((res) => {
     // , { responseType: 'arraybuffer' }
     console.log(res.data);
     
