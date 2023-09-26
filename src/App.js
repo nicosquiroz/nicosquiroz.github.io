@@ -126,7 +126,7 @@ import './slideshow.css';
     {/* <img className="diagrama" src={Diagrama}/> */}
     </div>
 
-    <div className='Span'></div>
+    {/* <div className='Span'></div>
 
     
     <Header
@@ -142,7 +142,7 @@ import './slideshow.css';
       
       <div style={{marginTop: 50 + 'em'}}>
       {/* analytics */}
-      </div>
+      </div> */}
 
 
 
