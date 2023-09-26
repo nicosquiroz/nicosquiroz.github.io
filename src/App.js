@@ -151,27 +151,14 @@ import './slideshow.css';
 
 {/* TEST CON FILTROS */}
 
-<Filtros/>
+{/* <Filtros/> */}
+   
+    {/* <span></span> */}
 
 
 
 
-
-
-
-
-
-
-
-
-
-    
-    <span></span>
-
-
-
-
-    <Futuro/>
+    {/* <Futuro/> */}
 
     </section>
 
@@ -185,7 +172,7 @@ import './slideshow.css';
 
 
 
-     </BrowserRouter>
+    </BrowserRouter>
   );
  
 }
