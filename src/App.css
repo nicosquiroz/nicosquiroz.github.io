@@ -41,6 +41,7 @@ html {
   background-color: black;
   margin-left: -4svw;
   margin-right: -4svw;
+  padding-bottom: 10svw;
   color: beige;
   text-align: center;
   
@@ -149,7 +150,7 @@ body {
   /* background-size: cover; */
   font-family:'Roboto Mono', monospace;
   /* font-family: 'Helvetica Neue', sans-serif; */
-  /* font-family: monospace; */
+  font-family: monospace;
   color:rgb(48, 48, 48);
 }
 header {
@@ -328,6 +329,16 @@ a:link:active, a:visited:active {
 
 
 
+
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  text-align: left;
+}
 
 
 

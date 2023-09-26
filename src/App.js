@@ -65,31 +65,32 @@ import './slideshow.css';
     
   
     <h4 id="deepmusic">A journey towards Deep Music.</h4>
-    <p>
-  I can't be the only one who has experienced the mysterious feeling that deep dreaming evokes. It's strangely familiar and hypnotic to our eyes, yet so odd to watch.</p>
-  <p>
-  
-  As with anything that's visually beautiful and nontrivial to my eyes, I wonder: <h4>How does it sound?</h4> Can every illusion or strangeness found in light be translated into sounds? Can sounds cause the same unfamiliarity in our imaginations as music warms our brains and beauty enlightens our eyes?</p>
-  <p>
-  
-  This is me starting to document what will be my learning process towards machine learning, beginning with being guided by a very meaningful project I've been working on for the past months.
-  </p><p>
-  With my brilliant friend <a href='http://instagram.com/jajamacka'>Macka Garrido</a>, we've been secretly working on the same creative project. It's called <a href="#in ">Innertwist</a>. Right now, she's making a video for music I made, and I'm creating the music for a video she made. This started as our first steps to finally create the things we wanted to create.
-  </p>
-  {/* <p><b><u>Give me a sound! (pantalla en blanco)</u></b></p> */}
-  <aside className={'sidebar2'}><Sound/></aside>
-  {/* <img src={gif} class="gif" />; */}
-  <p>
-  The important thing now is that her video is simply beautiful to my eyes and mind. I see so many interpretations, so chaotic yet concise and ordered at the same time. She loves programming, as you might notice.
-  </p><p>
-  So I found in this challenge the perfect opportunity to incorporate this beautiful area of science and technology and see what happens if we let the machine dreams merge with sound waves.
-  </p><p>
-  Now, I'm certain that there are tons of researchers, artists, and innovators who are at the frontier of what we know, and so many knowledgeable people who can either see together or differentiate where the line between art, science, or technology is drawn. I'm a beginner in every discipline. But I see enormous value in the thinking process. 
-  , the mental process that comes with learning. I feel very inspired by how people arrive at the ideas they come across, how the lines and dots connect. It's as if the branches that come before something we can call an idea are, of course, part of that idea.
-   {/* I don't mean to say that I'll reach a groundbreaking idea right away, but I'm inspired by witnessing how others learn. */}
-  </p><p>
-  I'd like to apply that process of mixing things in unexpected ways along the process, as I find that most of the time, I get the best insights from learning how everyone else learns. And I... </p>
-    </div>
+
+    <p>I can’t be the only one who has experienced a mysterious feeling with DeepDreaming imagery. Known patterns, strangely unfamiliar and hypnotic to our eyes, yet very captivating. And as with anything that’s visually beautiful and kind of illusory, I wonder:</p>
+
+<h4>How does it sound?</h4>
+
+<p>Can generated sounds induce the same warm unfamiliarity in our minds, opposed to what music or visual art usually provokes?</p>
+<br></br>
+<p>I’ll document my process guided by a creative project I’ve been working on for the past few months with my brilliant friend <a href='http://instagram.com/jajamacka'>Macka Garrido</a>. 
+She’s currently making a video for a short piece of music I created, and I’m composing the music for a video she made.
+</p>
+<p>
+(IN MY INTERPRETATION (view))
+
+inspired me…
+
+I think it portraits beautifully these sort of intermediate states between chaos and certainty, and i feel I can only close this exploration it in the same lenaguege it uses.
+</p>
+<p>
+But neither of us know what the other is exacly doing until it’s finished, nor what we wanted to say.
+</p>
+<p>
+So I don’t know YET where I will get to, but that’s the fun part
+</p>
+<aside className={'sidebar2'}><Sound/></aside>
+</div>
+
     <div className="fondoblur">
       fondoblur
     </div>
@@ -126,7 +127,7 @@ import './slideshow.css';
     {/* <img className="diagrama" src={Diagrama}/> */}
     </div>
 
-    {/* <div className='Span'></div>
+    <div className='Span'></div>
 
     
     <Header
@@ -135,14 +136,41 @@ import './slideshow.css';
       
       {showMusicSection ? <MusicSection /> : <ScienceSection />}
 
-
+      <div className='Span'></div>
+   <div class="row">
+  <div class="column">
+  <p>
+  With my brilliant friend <a href='http://instagram.com/jajamacka'>Macka Garrido</a>, we've been secretly working on the same creative project. It's called <a href="#in ">Innertwist</a>. Right now, she's making a video for music I made, and I'm creating the music for a video she made. This started as our first steps to finally create the things we wanted to create.
+  </p>
+  {/* <p><b><u>Give me a sound! (pantalla en blanco)</u></b></p> */}
+  
+  {/* <img src={gif} class="gif" />; */}
+  <p>
+  The important thing now is that her video is simply beautiful to my eyes and mind. I see so many interpretations, so chaotic yet concise and ordered at the same time. She loves programming, as you might notice.
+  </p><p>
+  So I found in this challenge the perfect opportunity to incorporate this beautiful area of science and technology and see what happens if we let the machine dreams merge with sound waves.
+  </p>
+  </div>
+  <div class="column">
+    
+  <div className='Span'></div>
+  <div className='Span'></div>
+  <div className='Span'></div>
+<p>
+  Now, I'm certain that there are tons of researchers, artists, and innovators who are at the frontier of what we know, and so many knowledgeable people who can either see together or differentiate where the line between art, science, or technology is drawn. I'm a beginner in every discipline. But I see enormous value in the thinking process. 
+  , the mental process that comes with learning. I feel very inspired by how people arrive at the ideas they come across, how the lines and dots connect. It's as if the branches that come before something we can call an idea are, of course, part of that idea.
+   {/* I don't mean to say that I'll reach a groundbreaking idea right away, but I'm inspired by witnessing how others learn. */}
+  </p><p>
+  I'd like to apply that process of mixing things in unexpected ways along the process, as I find that most of the time, I get the best insights from learning how everyone else learns. And I... </p>
+  </div>
+</div> 
 
 
 
       
-      <div style={{marginTop: 50 + 'em'}}>
+      {/* <div style={{marginTop: 50 + 'em'}}> */}
       {/* analytics */}
-      </div> */}
+      {/* </div> */}
 
 
 
