@@ -110,9 +110,11 @@ html {
 }
 @media screen and (max-width: 600px) {
   .gif {
+    padding-top: 10svw;
     width: 95%;
-    min-height: 70svw;
-    zoom: 300%;
+    border-radius: 10px;
+    height: 70svw;
+    zoom: 100%;
     background-repeat: no-repeat;
   }
   
@@ -337,11 +339,20 @@ a:link:active, a:visited:active {
   display: flex;
 }
 
+
 .column {
   flex: 50%;
   text-align: left;
 }
 
+@media screen and (max-width: 700px) { 
+  .row {
+    flex-direction: column;
+  }
+  .column {
+    width: 100%;
+  }
+}
 
 
 /* .App-logo {
