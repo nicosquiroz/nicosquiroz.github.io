@@ -74,7 +74,7 @@ import './slideshow.css';
   
   This is me starting to document what will be my learning process towards machine learning, beginning with being guided by a very meaningful project I've been working on for the past months.
   </p><p>
-  With my brilliant friend <a href='http://instagram.com/jajamacka'>Macka Garrido</a>, we've been secretly working on the same creative project. It's called <a href="#in">Innertwist</a>. Right now, she's making a video for music I made, and I'm creating the music for a video she made. This started as our first steps to finally create the things we wanted to create.
+  With my brilliant friend <a href='http://instagram.com/jajamacka'>Macka Garrido</a>, we've been secretly working on the same creative project. It's called <a href="#in ">Innertwist</a>. Right now, she's making a video for music I made, and I'm creating the music for a video she made. This started as our first steps to finally create the things we wanted to create.
   </p>
   {/* <p><b><u>Give me a sound! (pantalla en blanco)</u></b></p> */}
   <aside className={'sidebar2'}><Sound/></aside>
@@ -139,7 +139,7 @@ import './slideshow.css';
 
 
 
-      LALALA
+      
       <div style={{marginTop: 50 + 'em'}}>
       {/* analytics */}
       </div>
