@@ -53,7 +53,10 @@ origins = [
     "http://127.0.0.1:3000",
     "http://nicosquiroz.com",
     "https://nicosquiroz.com",
+    "https://nicosquiroz.github.io",
     "https://nicosquiroz.github.io/nsq",
+    "http://nicosquiroz.github.io",
+    "http://nicosquiroz.github.io/nsq",
     "nicosquiroz.com",
 ]
 
