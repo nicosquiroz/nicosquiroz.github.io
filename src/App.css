@@ -15,15 +15,15 @@ html {
   margin-left:4svw;
   margin-right:4svw;
   margin-top: 8rem;
-  font-size: .9rem;
+  font-size: .85rem;
   margin-bottom: 20rem;
   /* font-weight: 400; */
-  color: black;
+  color: rgb(48, 48, 48);
 
 }
 .Blog p {
   margin-right: 30%;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 
@@ -122,7 +122,7 @@ html {
   padding: 20svw;
   padding-left: 0;
   padding-right: 0;
-  zoom: 150%;
+  zoom: 100%;
   width:100%;
   background-image: url("./img/gif.gif"); 
   background-position:top;
@@ -130,7 +130,7 @@ html {
   /* margin-left: -4svw;
   margin-right: -4svw;  */
   opacity: 0.1;
-  -webkit-filter: blur(100px) invert() saturate(10);
+  -webkit-filter: blur(800px) invert() saturate(10);
   mix-blend-mode:exclusion;
   overflow:visible;
   pointer-events: none;
@@ -144,15 +144,17 @@ html {
 body {
   /* background-image: url("./img/movil 2.jpeg");  */
   /* background-color: rgba(209, 204, 204, 0.592); */
-  background-color: rgba(224, 219, 219, 0.432);
+  /* background-color: rgba(224, 219, 219, 0.432); */
+  background-color: rgba(241,240,239,255);
   /* background-size: cover; */
   font-family:'Roboto Mono', monospace;
   /* font-family: 'Helvetica Neue', sans-serif; */
+  /* font-family: monospace; */
   color:rgb(48, 48, 48);
 }
 header {
   padding-top: 0%;
-  text-align: center;
+  text-align: top;
   margin-top: -5%;
   margin-bottom: 4%;
   position: sticky;
