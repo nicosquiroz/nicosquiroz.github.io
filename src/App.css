@@ -108,10 +108,12 @@ html {
   /* filter: blur(2px);
   -webkit-filter: blur(2px); */
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
   .gif {
     width: 95%;
-    zoom: 50%;
+    min-height: 70svw;
+    zoom: 300%;
+    background-repeat: no-repeat;
   }
   
 }
