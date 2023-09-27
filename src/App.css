@@ -9,6 +9,12 @@ html {
   margin-top: 3rem;
   font-size: small;
   }
+@media screen and (max-width: 700px) {
+  .App {
+    font-size: .77rem;
+    /* background-color: yellow; */
+  }
+}
 
 .Blog {
   /* text-align: center; */
@@ -35,7 +41,7 @@ html {
     margin-right: 0svw; 
     /* dejar un intemedio con margin-right 4svw */
     margin-left: 0svw;
-    font-size: .8rem;
+    font-size: .77rem;
   }
   .Blog p {
     margin-right: 0%;
