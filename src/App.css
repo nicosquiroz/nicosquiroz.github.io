@@ -32,7 +32,9 @@ html {
 
 @media screen and (max-width: 700px) {
   .Blog {
-    margin-right: 4svw ;
+    margin-right: 0svw; 
+    /* dejar un intemedio con margin-right 4svw */
+    margin-left: 0svw;
   }
   .Blog p {
     margin-right: 0%;
