@@ -1,7 +1,7 @@
 {
-  "main.css": "/nsq/static/css/main.1216566d.chunk.css",
-  "main.js": "/nsq/static/js/main.10a4981e.chunk.js",
-  "main.js.map": "/nsq/static/js/main.10a4981e.chunk.js.map",
+  "main.css": "/nsq/static/css/main.22c699a6.chunk.css",
+  "main.js": "/nsq/static/js/main.316fc78c.chunk.js",
+  "main.js.map": "/nsq/static/js/main.316fc78c.chunk.js.map",
   "static/js/1.f4a2a6c0.chunk.js": "/nsq/static/js/1.f4a2a6c0.chunk.js",
   "static/js/1.f4a2a6c0.chunk.js.map": "/nsq/static/js/1.f4a2a6c0.chunk.js.map",
   "static/js/2.cc2ef1f0.chunk.js": "/nsq/static/js/2.cc2ef1f0.chunk.js",
@@ -13,8 +13,8 @@
   "static/media/movil 2.jpeg": "/nsq/static/media/movil 2.3f801a85.jpeg",
   "static/media/jfuturo.css": "/nsq/static/media/casco.c528509c.png",
   "static/media/diagrama.png": "/nsq/static/media/diagrama.86566476.png",
-  "static/css/main.1216566d.chunk.css.map": "/nsq/static/css/main.1216566d.chunk.css.map",
+  "static/css/main.22c699a6.chunk.css.map": "/nsq/static/css/main.22c699a6.chunk.css.map",
   "index.html": "/nsq/index.html",
-  "precache-manifest.7483346e2d2c64c3c0fcbc78c52974d9.js": "/nsq/precache-manifest.7483346e2d2c64c3c0fcbc78c52974d9.js",
+  "precache-manifest.f41a8e86f15ad2f2a3dcea1c5cfdf4eb.js": "/nsq/precache-manifest.f41a8e86f15ad2f2a3dcea1c5cfdf4eb.js",
   "service-worker.js": "/nsq/service-worker.js"
 }
