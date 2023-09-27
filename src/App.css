@@ -35,6 +35,7 @@ html {
     margin-right: 0svw; 
     /* dejar un intemedio con margin-right 4svw */
     margin-left: 0svw;
+    font-size: .8rem;
   }
   .Blog p {
     margin-right: 0%;
