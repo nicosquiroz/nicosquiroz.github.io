@@ -3,6 +3,7 @@
     position: absolute;
     right: 4svw;
     font-size: small;
+    visibility: hidden;
   }
   
   /* .sidebar_icon {

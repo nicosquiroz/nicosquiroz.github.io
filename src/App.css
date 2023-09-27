@@ -19,11 +19,13 @@ html {
   margin-bottom: 20rem;
   /* font-weight: 400; */
   color: rgb(48, 48, 48);
+  text-align: justify;
 
 }
 .Blog p {
-  margin-right: 50%;
+  margin-right: auto;
   margin-bottom: 0rem;
+  width: 600px;
 }
 
 
@@ -34,6 +36,7 @@ html {
   }
   .Blog p {
     margin-right: 0%;
+    width: auto;
   }
   
 }
@@ -194,7 +197,8 @@ a:link, a:visited {
   /* color: rgb(90, 92, 90); */
   color: rgb(48, 48, 48);
   text-decoration: underline;
-  font-weight: bold;
+  /* font-weight: bold; */
+  
 }
 
 a:link:active, a:visited:active {
@@ -362,6 +366,8 @@ mark  {
     background: none;
     font-weight: bold;
   }
+
+
 
 /* .App-logo {
   height: 40vmin;
