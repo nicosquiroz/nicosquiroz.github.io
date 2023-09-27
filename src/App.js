@@ -64,31 +64,31 @@ import './slideshow.css';
     <div className='Blog'>
     
   
-    <h4 id="deepmusic">A journey towards Deep Music.</h4>
+    <h3 id="deepmusic">A journey towards Deep Music.</h3>
 
-    <p>I can’t be the only one who has experienced a mysterious feeling with DeepDreaming imagery. Known patterns, strangely unfamiliar and hypnotic to our eyes, yet very captivating. And as with anything that’s visually beautiful and kind of illusory, I wonder:</p>
-
-<h4>How does it sound?</h4>
-
+    <p>I can’t be the only one who has experienced a mysterious feeling with DeepDreaming imagery. Known patterns, strangely unfamiliar and hypnotic to our eyes, yet very captivating.</p>
+    <p> And as with anything that’s visually beautiful and kind of illusory, I wonder: <b>How does it sound?</b>
+</p>
 <p>Can generated sounds induce the same warm unfamiliarity in our minds, opposed to what music or visual art usually provokes?</p>
 <br></br>
+<br></br>
+<br></br>
 <p>I’ll document my process guided by a creative project I’ve been working on for the past few months with my brilliant friend <a href='http://instagram.com/jajamacka'>Macka Garrido</a>. 
-She’s currently making a video for a short piece of music I created, and I’m composing the music for a video she made.
+She’s currently making a video for <mark>a short piece of music</mark> I created, and I’m composing the music for a video she made.
 </p>
+<aside className={'sidebar2'}><Sound/></aside>
 <p>
-(IN MY INTERPRETATION (view))
+{/* (IN MY INTERPRETATION (view))
 
-inspired me…
+inspired me… */}
 
-I think it portraits beautifully these sort of intermediate states between chaos and certainty, and i feel I can only close this exploration it in the same lenaguege it uses.
+It portraits beautifully these intermediate states between chaos and certainty, and I can only close this exploration in the same lenaguege it uses.
 </p>
 <p>
 But neither of us know what the other is exacly doing until it’s finished, nor what we wanted to say.
+So I don’t know yet where I will get to, but that’s the fun part
 </p>
-<p>
-So I don’t know YET where I will get to, but that’s the fun part
-</p>
-<aside className={'sidebar2'}><Sound/></aside>
+
 </div>
 
     <div className="fondoblur">
