@@ -1,7 +1,7 @@
 {
-  "main.css": "/nsq/static/css/main.22c699a6.chunk.css",
-  "main.js": "/nsq/static/js/main.316fc78c.chunk.js",
-  "main.js.map": "/nsq/static/js/main.316fc78c.chunk.js.map",
+  "main.css": "/nsq/static/css/main.3712b9ba.chunk.css",
+  "main.js": "/nsq/static/js/main.ba9acbc7.chunk.js",
+  "main.js.map": "/nsq/static/js/main.ba9acbc7.chunk.js.map",
   "static/js/1.f4a2a6c0.chunk.js": "/nsq/static/js/1.f4a2a6c0.chunk.js",
   "static/js/1.f4a2a6c0.chunk.js.map": "/nsq/static/js/1.f4a2a6c0.chunk.js.map",
   "static/js/2.cc2ef1f0.chunk.js": "/nsq/static/js/2.cc2ef1f0.chunk.js",
@@ -11,10 +11,10 @@
   "static/media/App.css": "/nsq/static/media/gradiente.797abff4.gif",
   "static/media/linea2.png": "/nsq/static/media/linea2.b8df56b0.png",
   "static/media/movil 2.jpeg": "/nsq/static/media/movil 2.3f801a85.jpeg",
-  "static/media/jfuturo.css": "/nsq/static/media/casco.c528509c.png",
+  "static/media/jfuturo.css": "/nsq/static/media/EuropaGroteskSH-Med.8caf9417.otf",
   "static/media/diagrama.png": "/nsq/static/media/diagrama.86566476.png",
-  "static/css/main.22c699a6.chunk.css.map": "/nsq/static/css/main.22c699a6.chunk.css.map",
+  "static/css/main.3712b9ba.chunk.css.map": "/nsq/static/css/main.3712b9ba.chunk.css.map",
   "index.html": "/nsq/index.html",
-  "precache-manifest.f41a8e86f15ad2f2a3dcea1c5cfdf4eb.js": "/nsq/precache-manifest.f41a8e86f15ad2f2a3dcea1c5cfdf4eb.js",
+  "precache-manifest.77fbc5846cc4be5f290da15536e7511e.js": "/nsq/precache-manifest.77fbc5846cc4be5f290da15536e7511e.js",
   "service-worker.js": "/nsq/service-worker.js"
 }
