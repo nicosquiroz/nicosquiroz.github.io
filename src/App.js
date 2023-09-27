@@ -64,7 +64,7 @@ import './slideshow.css';
     <div className='Blog'>
     
   
-    <h3 id="deepmusic">A journey towards Deep Music.</h3>
+    <p id="deepmusic">A JOURNEY TOWARDS DEEP MUSIC.</p>
 
     <p>I can’t be the only one who has experienced a mysterious feeling with DeepDreaming imagery. Known patterns, strangely unfamiliar and hypnotic to our eyes, yet very captivating.</p>
     <p> And as with anything that’s visually beautiful and kind of illusory, I wonder: <b>How does it sound?</b>
@@ -72,11 +72,11 @@ import './slideshow.css';
 <p>Can generated sounds induce the same warm unfamiliarity in our minds, opposed to what music or visual art usually provokes?</p>
 <br></br>
 <br></br>
-<br></br>
+
 <p>I’ll document my process guided by a creative project I’ve been working on for the past few months with my brilliant friend <a href='http://instagram.com/jajamacka'>Macka Garrido</a>. 
 She’s currently making a video for <mark>a short piece of music</mark> I created, and I’m composing the music for a video she made.
 </p>
-<aside className={'sidebar2'}><Sound/></aside>
+{/* <aside className={'sidebar2'}><Sound/></aside> */}
 <p>
 {/* (IN MY INTERPRETATION (view))
 
