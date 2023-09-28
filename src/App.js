@@ -78,12 +78,13 @@ import './slideshow.css';
 
 <div style={{display: 'flex'}}>
 <p style={{display: 'inline'}}>I’m documenting the process guided by a creative project I’ve been working on for the past few months with my brilliant friend <a href='http://instagram.com/jajamacka'>Macka Garrido</a>. 
-She’s currently making a video for
-</p><Sound/>
+She’s currently making a video for <mark>a short piece of music</mark> I created, and I’m composing the music for a video she made.
+</p>
+{/* <Sound/> */}
 </div>
 
- <p>I created, and I’m composing the music for a video she made.
-</p>
+ {/* <p>
+</p> */}
 {/* <aside className={'sidebar2'}><Sound/></aside> */}
 <p>
 {/* (IN MY INTERPRETATION (view))
