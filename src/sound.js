@@ -63,8 +63,9 @@ RenderButtonSound = () => {
         return(
           
             <button key={index} onClick={() => this.soundPlay(soundObj.sound)}>
-                <b>Give me a sound!</b>
-                <hr className="linea"></hr>
+                <span>a short piece of music</span>
+                {/* <b>Give me a sound!</b> */}
+                {/* <hr className="linea"></hr> */}
 
             </button>
             
