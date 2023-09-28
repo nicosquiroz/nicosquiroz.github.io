@@ -32,7 +32,7 @@ html {
 .Blog p {
   margin-right: auto;
   margin-bottom: 0rem;
-  width: 600px;
+  width: 550px;
 }
 
 
@@ -42,13 +42,22 @@ html {
     margin-right: 0svw; 
     /* dejar un intemedio con margin-right 4svw */
     margin-left: 0svw;
-    font-size: .77rem;
+    font-size: .8rem;
+    line-height: 1.1rem;
   }
   .Blog p {
     margin-right: 0%;
     width: auto;
     text-align: left;
   }
+  
+}
+
+
+
+.fuente2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
   
 }
 .Seccion2 {

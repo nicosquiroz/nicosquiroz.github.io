@@ -56,8 +56,8 @@ import './slideshow.css';
          <p>
            I'm a Data Scientist living in Viña del Mar, Chile.
         </p><p>
-          <br></br>
-           Chaotically learning in the line between art and science. <br></br>I'm currently <a href="#deepmusic">applying Machine Learning</a> in music production.
+          
+           Chaotically learning in the line between art and science. I'm currently <a href="#deepmusic">applying Machine Learning</a> in music production.
         </p>
         <p>
          nicosquiroz@gmail.com - <a href='https://www.threads.net/nicosquiroz'>Threads</a> - <a href='https://www.linkedin.com/in/nicosquiroz'>Linkedin</a>
@@ -67,7 +67,7 @@ import './slideshow.css';
     <div className='Blog'>
     
   
-    <p >A JOURNEY TOWARDS DEEP MUSIC.</p>
+    <p className='fuente2' >A JOURNEY TOWARDS DEEP MUSIC.</p>
 
     <p>I can’t be the only one who has experienced a mysterious feeling with DeepDreaming imagery. Known patterns, strangely unfamiliar and hypnotic to our eyes, yet very captivating.</p>
     <p> And as with anything that’s visually beautiful and kind of illusory, I wonder: <b>How does it sound?</b>
@@ -95,9 +95,12 @@ It portraits beautifully these intermediate states between chaos and certainty, 
 </p>
 <p>
 But neither of us know what the other is exacly doing until it’s finished, nor what we wanted to say.
-So I don’t know yet where I will get to, but that’s the fun part
+So I don’t know yet where I will get to, but that’s the fun part.
+</p>
 
 <br></br>
+<p>
+This website attempts to portrait my ____.
 <br></br>
 <br></br>
 <br></br>
