@@ -57,7 +57,7 @@ import './slideshow.css';
            I'm a Data Scientist living in Viña del Mar, Chile.
         </p><p>
           
-           Chaotically learning in the line between art and science. I'm currently <a href="#deepmusic">applying Machine Learning</a> in music production.
+           Moving in the line between art and science.</p><p>I'm currently <a href="#deepmusic">applying Machine Learning</a> in music production.
         </p>
         <p>
          nicosquiroz@gmail.com - <a href='https://www.threads.net/nicosquiroz'>Threads</a> - <a href='https://www.linkedin.com/in/nicosquiroz'>Linkedin</a>
@@ -70,15 +70,18 @@ import './slideshow.css';
   
     <p className='fuente2' >A JOURNEY TOWARDS DEEP MUSIC.</p>
 
-    <p>I can’t be the only one who has experienced a mysterious feeling with DeepDreaming imagery. Known patterns, strangely unfamiliar and yet very hypnotic to our eyes.
+    <p>I can’t be the only one who has experienced a mysterious feeling with DeepDreaming imagery. Known patterns and strangely unfamiliar, yet very hypnotic to our eyes.
     And as with anything that’s visually beautiful and kind of illusory, I wonder: How does it sound?</p>
 <p>Can generated sounds induce the same warm unfamiliarity in our minds, opposed to what music or visual art usually provokes?</p>
-<br></br>
-<br></br>
 
+<p>This website attempts to explore the answers.</p>
+
+<br></br>
+<br></br>
+<div>
 {/* <div style={{display: 'flex'}}> */}
 <p>I’m documenting the process guided by a creative project I’ve been working on for the past few months with my brilliant friend <a href='http://instagram.com/jajamacka'>Macka Garrido</a>. 
-She’s currently making a video for a short piece of music I created, and I’m composing the music for a video she made.
+She’s currently making a video for a short piece of music I created, and I’m composing the music for a video she made. But neither of us know what the other is exacly doing until it’s finished, nor what we wanted to say.
 
 {/* <Sound/> */}
 </p>
@@ -98,13 +101,12 @@ inspired me… */}
 
 </p>
 <p>
-But neither of us know what the other is exacly doing until it’s finished, nor what we wanted to say.
+
 So I don’t know yet where I will get to, but that’s the fun part.
 </p>
-
+</div>
 <br></br>
 <p>
-This website attempts to portrait my ____.
 <br></br>
 <br></br>
 <br></br>
