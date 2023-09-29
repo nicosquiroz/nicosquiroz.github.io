@@ -15,24 +15,45 @@ html {
     /* background-color: yellow; */
   }
 }
+.nombre {
+  /* margin-left: 8svw; */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+.intro {
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family:'Roboto Mono', monospace;
+  /* text-transform: uppercase; */
+  text-align: justify;
+  /* line-height: .4rem; */
+  /* margin-left: 8svw; */
+  /* font-weight: bold; */
+  /* letter-spacing: .06em; */
+  /* word-spacing: .1em; */
+  color: rgb(41, 39, 39);
+}
+
 
 .Blog {
   /* text-align: center; */
   margin-left:8svw;
   margin-right:4svw;
   margin-top: 8rem;
-  font-size: .8rem;
+  /* font-size: .8rem; */
+  font-size: small;
   margin-bottom: 20rem;
   /* font-weight: 400; */
-  color: rgb(66, 66, 66);
+  color: rgba(0, 0, 0, 0.834);
   /* text-align: justify; */
   line-height: 1.25rem;
+
 
 }
 .Blog p {
   margin-right: auto;
   margin-bottom: 0rem;
   width: 550px;
+  line-height: 1.2rem;
 }
 
 
@@ -48,7 +69,7 @@ html {
   .Blog p {
     margin-right: 0%;
     width: auto;
-    text-align: left;
+    text-align: justify;
   }
   
 }
@@ -57,7 +78,7 @@ html {
 
 .fuente2 {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
+  font-size: 14px;
   
 }
 .Seccion2 {
@@ -180,7 +201,7 @@ body {
   font-family:'Roboto Mono', monospace;
   /* font-family: 'Helvetica Neue', sans-serif; */
   /* font-family: monospace; */
-  color:rgb(48, 48, 48);
+  /* color:rgb(48, 48, 48); */
   
 }
 header {
@@ -215,17 +236,9 @@ header > div > img {
   font-weight: 400;
 }
 
-a:link, a:visited {
-  /* color: rgb(90, 92, 90); */
-  color: rgb(48, 48, 48);
-  text-decoration: underline;
-  /* font-weight: bold; */
-  
-}
 
-a:link:active, a:visited:active {
-  color: rgb(239, 145, 236);
-}
+
+
 
 
 
@@ -391,6 +404,33 @@ mark  {
   }
 
 
+
+
+
+ a:link, a:visited {
+  /* color: rgb(90, 92, 90); */
+  color: rgb(23, 23, 23);
+  color: orangered;
+  text-decoration: underline;
+    font-weight: bold;
+    
+ }
+  
+  
+ a:link:active, a:visited:active {
+   color: rgb(239, 145, 236);
+ }
+
+
+
+/* .videomacka {
+  text-align: right;
+  color: #c2c2c2;
+  margin-top: -2svw;
+  mix-blend-mode:color-dodge; 
+  margin-right: 13svw;
+
+} */
 
 /* .App-logo {
   height: 40vmin;

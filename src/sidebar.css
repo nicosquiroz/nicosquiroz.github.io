@@ -76,14 +76,3 @@
 
 
 
-
-a:link, a:visited {
-  /* color: rgb(90, 92, 90); */
-  color: rgb(48, 48, 48);
-  text-decoration: underline;
-  font-weight: bold;
-}
-
-a:link:active, a:visited:active {
-  color: rgb(239, 145, 236);
-}

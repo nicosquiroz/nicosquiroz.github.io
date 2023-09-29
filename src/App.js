@@ -46,13 +46,13 @@ import './slideshow.css';
       
 
       <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
-      <h4> Nicolás S. Quiroz</h4>
+      <p className='nombre'> NICOLÁS S. QUIROZ</p>
       
       <div>
         
       </div>
 
-      <div>
+      <div className='intro'>
          <p>
            I'm a Data Scientist living in Viña del Mar, Chile.
         </p><p>
@@ -64,24 +64,24 @@ import './slideshow.css';
         </p>
         <p id="deepmusic"></p>
       </div>
+
     <div className='Blog'>
     
   
     <p className='fuente2' >A JOURNEY TOWARDS DEEP MUSIC.</p>
 
     <p>I can’t be the only one who has experienced a mysterious feeling with DeepDreaming imagery. Known patterns, strangely unfamiliar and hypnotic to our eyes, yet very captivating.</p>
-    <p> And as with anything that’s visually beautiful and kind of illusory, I wonder: <b>How does it sound?</b>
-</p>
+    <p> And as with anything that’s visually beautiful and kind of illusory, I wonder: How does it sound?</p>
 <p>Can generated sounds induce the same warm unfamiliarity in our minds, opposed to what music or visual art usually provokes?</p>
 <br></br>
 <br></br>
 
-<div style={{display: 'flex'}}>
-<p style={{display: 'inline'}}>I’m documenting the process guided by a creative project I’ve been working on for the past few months with my brilliant friend <a href='http://instagram.com/jajamacka'>Macka Garrido</a>. 
-She’s currently making a video for <mark>a short piece of music</mark> I created, and I’m composing the music for a video she made.
+{/* <div style={{display: 'flex'}}> */}
+<p>I’m documenting the process guided by a creative project I’ve been working on for the past few months with my brilliant friend <a href='http://instagram.com/jajamacka'>Macka Garrido</a>. 
+She’s currently making a video for a short piece of music I created, and I’m composing the music for a video she made.
 </p>
-{/* <Sound/> */}
-</div>
+<Sound/>
+{/* </div> */}
 
  {/* <p>
 </p> */}
@@ -140,8 +140,10 @@ This website attempts to portrait my ____.
     {/* <p className="intxt">
     Como pueden ver en el video, amerita entrar en el mundo de la programación. Qué oportunidad más perfecta. Nos adentraremos en el análisis de imágenes y sonido, y cómo se mezclan a través del arte y tecnología. 
     </p> */}
+
+   {/* <p className='videomacka'>VIDEO: MACKA GARRIDO</p> */}
    <p className="intxt">
-    Audiovisual proyect started as a first approach to music and video. It consist in two stages. We’re now in the second stage. <b>And this is the point of view of Nico.</b>
+    Audiovisual proyect started as a first approach to music and video. It consist in two stages. We’re now in the second stage. <b>And this is the point of view of Nico. Video by Macka Garrido</b>
     <br></br>Puedes explorar ambas áreas en detalle. Música y ciencia.</p>
     {/* <img className="diagrama" src={Diagrama}/> */}
     </div>
