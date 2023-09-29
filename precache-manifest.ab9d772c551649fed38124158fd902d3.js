@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "6b3bb1773717b00d1497",
-    "url": "/nsq/static/css/main.f9d75950.chunk.css"
+    "revision": "31c38b07e3fe5f17d0d7",
+    "url": "/nsq/static/css/main.5238300f.chunk.css"
   },
   {
-    "revision": "6b3bb1773717b00d1497",
-    "url": "/nsq/static/js/main.6b3bb177.chunk.js"
+    "revision": "31c38b07e3fe5f17d0d7",
+    "url": "/nsq/static/js/main.31c38b07.chunk.js"
   },
   {
     "revision": "f4a2a6c05474266edc2e",
@@ -44,11 +44,11 @@ self.__precacheManifest = [
     "url": "/nsq/static/media/casco.c528509c.png"
   },
   {
-    "revision": "86566476e215bb3dc7977cf185c08353",
-    "url": "/nsq/static/media/diagrama.86566476.png"
+    "revision": "da67e089b5f097f893ba5e8a3b318808",
+    "url": "/nsq/static/media/circulo.da67e089.png"
   },
   {
-    "revision": "b0168d0d538c1a1162c345723e198217",
+    "revision": "032d6a32087c6314f889ce2e03fb3408",
     "url": "/nsq/index.html"
   }
 ];
