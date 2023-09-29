@@ -14,7 +14,7 @@ import Sound from "./sound";
 
 import { BrowserRouter } from 'react-router-dom';
 
-import Diagrama from './img/diagrama.png';
+import circulo from './img/circulo.png';
 import './slideshow.css';
 
 
@@ -65,6 +65,15 @@ import './slideshow.css';
         <p id="deepmusic"></p>
       </div>
 
+
+
+
+
+    <div className='circulo'>
+    {/* <img className="circulo" src={circulo}/> */}
+
+    </div>
+    
     <div className='Blog'>
     
   

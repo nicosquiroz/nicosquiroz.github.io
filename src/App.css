@@ -47,6 +47,8 @@ html {
   margin-bottom: 20rem;
   /* font-weight: 400; */
   color: rgba(0, 0, 0, 0.834);
+  /* color: rgb(41, 39, 39); */
+  /* font-weight: bold; */
   /* text-align: justify; */
   line-height: 1.25rem;
 
@@ -145,7 +147,7 @@ html {
 
 .gif {
   border: #c2c2c2;
-  border-radius: 10px;
+  border-radius: 1em;
   border-color: aliceblue;
   width: 70%; 
   /* width: 90%; */
@@ -169,7 +171,8 @@ html {
   .gif {
     padding-top: 10svw;
     width: 95%;
-    border-radius: 10px;
+    border: #c2c2c2;
+    border-radius: 1em;
     height: 70svw;
     zoom:80%;
     background-repeat: no-repeat;
@@ -433,6 +436,20 @@ mark  {
  }
 
 
+
+/* 
+ .circulo {
+  width: 40% ;
+  margin-top: -5svw;
+  /* margin-right: 5svw; */
+  /* position: fixed; */
+  /* margin-left: 40svw;
+  mix-blend-mode:darken;
+  border: #c2c2c2;
+  border-radius: 20;
+  border-style: double;
+  } */
+ 
 
 /* .videomacka {
   text-align: right;
