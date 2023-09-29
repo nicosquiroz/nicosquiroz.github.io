@@ -70,8 +70,8 @@ import './slideshow.css';
   
     <p className='fuente2' >A JOURNEY TOWARDS DEEP MUSIC.</p>
 
-    <p>I can’t be the only one who has experienced a mysterious feeling with DeepDreaming imagery. Known patterns, strangely unfamiliar and hypnotic to our eyes, yet very captivating.</p>
-    <p> And as with anything that’s visually beautiful and kind of illusory, I wonder: How does it sound?</p>
+    <p>I can’t be the only one who has experienced a mysterious feeling with DeepDreaming imagery. Known patterns, strangely unfamiliar and yet very hypnotic to our eyes.
+    And as with anything that’s visually beautiful and kind of illusory, I wonder: How does it sound?</p>
 <p>Can generated sounds induce the same warm unfamiliarity in our minds, opposed to what music or visual art usually provokes?</p>
 <br></br>
 <br></br>
@@ -79,8 +79,12 @@ import './slideshow.css';
 {/* <div style={{display: 'flex'}}> */}
 <p>I’m documenting the process guided by a creative project I’ve been working on for the past few months with my brilliant friend <a href='http://instagram.com/jajamacka'>Macka Garrido</a>. 
 She’s currently making a video for a short piece of music I created, and I’m composing the music for a video she made.
+
+{/* <Sound/> */}
 </p>
-<Sound/>
+<p>
+In my view, it beautifully portraits these intermediate states between chaos and certainty, and I can only close this exploration in the same lenaguege it uses.
+</p>
 {/* </div> */}
 
  {/* <p>
@@ -91,7 +95,7 @@ She’s currently making a video for a short piece of music I created, and I’m
 
 inspired me… */}
 
-It portraits beautifully these intermediate states between chaos and certainty, and I can only close this exploration in the same lenaguege it uses.
+
 </p>
 <p>
 But neither of us know what the other is exacly doing until it’s finished, nor what we wanted to say.
