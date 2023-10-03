@@ -8,6 +8,8 @@ html {
   margin-right:4svw;
   margin-top: 3rem;
   font-size: small;
+  border: black;
+  border-width: 1emma;
   }
 @media screen and (max-width: 700px) {
   .App {
@@ -19,22 +21,38 @@ html {
   margin-left: 8svw;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
+  /* visibility: hidden; */
 }
 .intro {
   /* font-family: Arial, Helvetica, sans-serif; */
   font-family: monospace;
   /* text-transform: uppercase; */
-  
+  /* font-weight: bold; */
   text-align: justify;
   /* font-size: medium; */
   /* line-height: 1.25rem; */
+  
   margin-left: 8svw;
+  margin-right: -6svw;
+  /* margin-top: -6svw; */
   /* font-weight: bold; */
   /* letter-spacing: .06em; */
   /* word-spacing: .1em; */
   color: rgb(41, 39, 39);
+  color:rgb(108, 108, 108);
+  /* font-weight: 200; */
 }
-
+.iz {
+  /* line-height: .75em; */
+  width: 40%;
+  
+}
+.der {
+  width: 30%;
+  margin-left: 0svw;
+  margin-right: 4svw;
+  text-align: left;
+}
 
 
 .Blog {

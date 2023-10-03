@@ -52,17 +52,29 @@ import './slideshow.css';
         
       </div>
 
+      {/* <div className='intro' style={{display: 'flex'}}> */}
       <div className='intro'>
+        {/* <div className='iz'> */}
          <p>
            I'm a Data Scientist living in Viña del Mar, Chile.
         </p><p>
           
-           Moving in the line between art and science.</p><p>I'm currently <a href="#deepmusic">applying Machine Learning</a> in music production.
+           Moving in the line between art and science.</p><p><b>I'm currently <a href="#deepmusic">applying Machine Learning</a> in music production.</b>
         </p>
+        
+
+        
+
         <p>
          nicosquiroz@gmail.com - <a href='https://www.threads.net/nicosquiroz'>Threads</a> - <a href='https://www.linkedin.com/in/nicosquiroz'>Linkedin</a>
         </p>
+        {/* </div> */}
+
+        {/* <div className='der '><p>This website attempts to explore the answers, inevitably coming across different disciplines I want to dive in. I'm right now diving into neural networks and machine learning, music and im interested in the brain.</p></div>
+        <div className='der '><p>Here i can write someteing very bacan and that extends for mor than one line so the whole thing seems like a little paragraph. Here i can write someteing one line so the whole thing seems like a little paragraph.</p></div> */}
+        {/* <div className='der '><p>thing 1<br></br>thing 2<br></br>thing 3</p></div> */}
         <p id="deepmusic"></p>
+        {/* <aside className={'sidebar2'}>HOLA</aside> */}
       </div>
 
 
@@ -83,7 +95,7 @@ import './slideshow.css';
     And as with anything that’s visually beautiful and kind of illusory, I wonder: How does it sound?</p>
 <p>Can generated sounds induce the same warm unfamiliarity in our minds, opposed to what music or visual art usually provokes?</p>
 
-<p>This website attempts to explore the answers.</p>
+<p>This website attempts to explore the answers, inevitably coming across different disciplines I want to dive in. I'm right now diving into neural networks and machine learning, music and im interested in the brain.</p>
 
 <br></br>
 <br></br>
@@ -112,6 +124,9 @@ inspired me… */}
 <p>
 
 So I don’t know yet where I will get to, but that’s the fun part.
+
+
+... quizá puede terminar en attempts to answer these questions. how could ai be merged with music? terminar con let machine dreamds?
 </p>
 </div>
 <br></br>
@@ -176,6 +191,7 @@ So I don’t know yet where I will get to, but that’s the fun part.
    <div class="row">
   <div class="column">
   <p>
+    Well, this is an extract frome the video I'm musicalizing. It was created by 
   With my brilliant friend <a href='http://instagram.com/jajamacka'>Macka Garrido</a>, we've been secretly working on the same creative project. It's called <a href="#in ">Innertwist</a>. Right now, she's making a video for music I made, and I'm creating the music for a video she made. This started as our first steps to finally create the things we wanted to create.
   </p>
   {/* <p><b><u>Give me a sound! (pantalla en blanco)</u></b></p> */}
@@ -198,9 +214,18 @@ So I don’t know yet where I will get to, but that’s the fun part.
    {/* I don't mean to say that I'll reach a groundbreaking idea right away, but I'm inspired by witnessing how others learn. */}
   </p><p>
   I'd like to apply that process of mixing things in unexpected ways along the process, as I find that most of the time, I get the best insights from learning how everyone else learns. And I... </p>
+  <div className='Span'></div>
+  <div className='Span'></div>
+  <div className='Span'></div>
+  <p>Here you will find writings on different topics regarding to the proyect, and more in deph thoughts diverging (and converging) from it. On the one hand, I want to showcase how the different areas combine together into only one outcome. For that purpose I'm going to be the most explainable possible. But on the other, I like to pursuit some tecnical nowledge both in science, related to the brain, perception, conciousness and it's relation to artificial intelligence in a reaserch and production level, and I'd like to register the creative process related to musical production and the details of the construccion of a piece. I'm not sure how I'll be dividing the themes. As a first approach, I'll be writing all down on the same page. And if something gets too technical, I'll make an aside from that, possibly turning into another line of thoughts.</p>
+  <p>This journey... Why ML?</p>
+  <p>Sección leyendo Being You</p>
+  <p>I'm also very happy since this website was being planned for years. I didn't know what was going to be the context. I didn't know it would have turned out the way it is. And I feel very confortable with just writing out my thoughts in here. I see the progression. </p>
   </div>
-</div> 
 
+
+  
+</div> 
 
 
       

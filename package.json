@@ -23,7 +23,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "echo 'nicosquiroz.github.io/nsq' > ./build/CNAME && gh-pages -d build",
+    "deploy": "echo 'nicosquiroz.github.io' > ./build/CNAME && gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
