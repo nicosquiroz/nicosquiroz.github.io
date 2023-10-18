@@ -1,0 +1,24 @@
+.startup_section{
+    margin-left:4svw;
+}
+.txt2 {
+    margin-left: 4svw;
+    width: 700px;
+}
+.startup_section p {
+    font-family: Helvetica;
+    font-weight: 200;
+    font-size: medium;
+
+    
+}
+
+
+.txt1 {
+    font-family: Helvetica;
+    width: 700px;
+    font-size: larger;
+    font-weight: 200;
+    margin-left: 4svw;
+    margin-top:200px;
+}

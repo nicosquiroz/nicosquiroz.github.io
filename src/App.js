@@ -11,8 +11,9 @@ import Sidebar from './sidebar';
 import Futuro from './jfuturo';
 import Filtros from './filtros';
 import Sound from "./sound";
+// import Diseño from './Diseño_Section/Diseño';
 
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, Routes, Route} from 'react-router-dom';
 
 import circulo from './img/circulo.png';
 import './slideshow.css';
@@ -32,20 +33,24 @@ import './slideshow.css';
   
 
 
-  
+   {/* <Routes>
+    <Route path='/diseño' element={<Diseño />}>
+      
+    </Route>
+   </Routes> */}
 
  
   return (
-    <BrowserRouter>
+    // <BrowserRouter>
     
-   
+  
 
     <div className="App">
 
 
       
 
-      <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
+      {/* <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} /> */}
       <p className='nombre'> NICOLÁS S. QUIROZ</p>
       
       <div>
@@ -59,9 +64,16 @@ import './slideshow.css';
            I'm a Data Scientist living in Viña del Mar, Chile.
         </p><p>
           
-           Moving in the line between art and science.</p><p><b>I'm currently <a href="#deepmusic">applying Machine Learning</a> in music production.</b>
+           Moving in the line between art and science.</p>
+           <p><a href="/#/diseno">I'm into web design</a> and development, I fell in love with landing pages and that blank page.</p>
+            <p> I also <a href="/#/startup">document on learning</a> how all crafts merge into a business.</p>
+           
+           <p><b>I'm currently <a href="/#/#deepmusic">applying Machine Learning</a> in music production.</b>
+           
         </p>
         
+
+        <p>I'm also diving into Web Design, the fundamentel interface in the intersection of art and software.</p>
 
         
 
@@ -127,7 +139,10 @@ So I don’t know yet where I will get to, but that’s the fun part.
 
 
 ... quizá puede terminar en attempts to answer these questions. how could ai be merged with music? terminar con let machine dreamds?
+
 </p>
+
+<p>generative ai, hallucinations... expand the mind</p>
 </div>
 <br></br>
 <p>
@@ -221,13 +236,14 @@ So I don’t know yet where I will get to, but that’s the fun part.
   <p>This journey... Why ML?</p>
   <p>Sección leyendo Being You</p>
   <p>I'm also very happy since this website was being planned for years. I didn't know what was going to be the context. I didn't know it would have turned out the way it is. And I feel very confortable with just writing out my thoughts in here. I see the progression. </p>
+  
   </div>
 
-
+  
   
 </div> 
 
-
+<div className='Spanseparador'></div>
       
       {/* <div style={{marginTop: 50 + 'em'}}> */}
       {/* analytics */}
@@ -261,7 +277,7 @@ So I don’t know yet where I will get to, but that’s the fun part.
 
 
 
-    </BrowserRouter>
+    // </BrowserRouter>
   );
  
 }
