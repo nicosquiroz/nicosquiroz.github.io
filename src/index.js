@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Startup from './Startup_Section/Startup.js';
 import Diseño from './Diseño_Section/Diseño.js';
+import Short from './Short_Section/Short.js';
 import { HashRouter } from 'react-router-dom';
 
 import {
@@ -20,6 +21,7 @@ root.render(
    <Route path="/" element={<App />} />
   <Route path="/diseno" element={<Diseño />} />
   <Route path="/startup" element={<Startup />} />
+  <Route path="/short" element={<Short />} />
   </Routes>
 </HashRouter>
 </React.StrictMode> 

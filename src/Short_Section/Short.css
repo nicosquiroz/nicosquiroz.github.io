@@ -1,0 +1,89 @@
+/* div {
+    height: 1000px;
+} */
+
+@font-face {
+    font-family: "SpaceMono";   /*Can be any text*/
+    src: local("SpaceMono"),
+      url("../fonts/SpaceMono-Regular.ttf") format("opentype");
+  }
+
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+.short {
+    margin-left: 3svw;
+    margin-right: 3svw;
+}
+.short .Header {
+    margin-top: 10px;
+    display: flex;
+    /* position: absolute; */
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.short .studios {
+    color:#292929;
+    font-style: italic;
+    /* font-family: monospace; */
+}
+
+.short em {
+    font-family: "Helvetica";
+    font-weight: bolder;
+    color: white;
+    font-style: normal;
+    font-size: 1.1em;
+    
+}
+
+.short .cta {
+    background-color: #1d1d1d;
+    font-size: 14px;
+    padding: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-radius: 20px;
+    color: white;
+    
+}
+
+.short .cta a {
+    color: rgb(212, 212, 212);
+    text-decoration: none;
+}
+.short .texto {
+    position: absolute;
+    margin-top:400px;
+    margin-top: 43vh;
+    margin-bottom: -10px;
+    color:rgb(0, 0, 0);
+    /* mix-blend-mode:hard-light; */
+
+}
+.short .div {
+    font-family: "SpaceMono";
+    /* font-family: 'Roboto Mono', monospace; */
+    /* font-weight: 300; */
+    font-weight: 100;
+}
+.short h4 {
+    font-family: "SpaceMono";
+    font-size: 3em;
+    margin-bottom: -15px;
+    letter-spacing: 3px;
+    font-weight: 400;
+}
