@@ -20,12 +20,12 @@ self.__precacheManifest = [
     "url": "/static/js/runtime~main.9c47fb1e.js"
   },
   {
-    "revision": "1085b4085d5aeb5566b62a6c6f47e75a",
-    "url": "/static/media/gif.1085b408.gif"
-  },
-  {
     "revision": "89cdaef2654dbc9d80570a8ed23c97e9",
     "url": "/static/media/gifcrop.89cdaef2.gif"
+  },
+  {
+    "revision": "1085b4085d5aeb5566b62a6c6f47e75a",
+    "url": "/static/media/gif.1085b408.gif"
   },
   {
     "revision": "797abff4bc520f4b8c8550271cc0b58e",
