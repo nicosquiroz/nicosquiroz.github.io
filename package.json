@@ -1,5 +1,5 @@
 {
-  "homepage": "http://nicosquiroz.github.io",
+  "homepage": "http://nicosquiroz.com",
   "name": "react-deploy",
   "version": "0.1.0",
   "private": true,
@@ -23,7 +23,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "echo 'nicosquiroz.github.io' > ./build/CNAME && gh-pages -d build",
+    "deploy": "echo 'nicosquiroz.com' > ./build/CNAME && gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

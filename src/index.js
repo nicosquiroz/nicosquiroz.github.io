@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import Startup from './Startup_Section/Startup.js';
 import Diseño from './Diseño_Section/Diseño.js';
 import Short from './Short_Section/Short.js';
+import LearnMore from './Short_Section/LearnMore.js';
 import { HashRouter } from 'react-router-dom';
 
 import {
@@ -22,6 +23,7 @@ root.render(
   <Route path="/diseno" element={<Diseño />} />
   <Route path="/startup" element={<Startup />} />
   <Route path="/short" element={<Short />} />
+  <Route path="/learnmore" element={<LearnMore />} />
   </Routes>
 </HashRouter>
 </React.StrictMode> 
