@@ -32,12 +32,12 @@ self.__precacheManifest = [
     "url": "/static/media/instagram.59bde324.svg"
   },
   {
-    "revision": "89cdaef2654dbc9d80570a8ed23c97e9",
-    "url": "/static/media/gifcrop.89cdaef2.gif"
-  },
-  {
     "revision": "1085b4085d5aeb5566b62a6c6f47e75a",
     "url": "/static/media/gif.1085b408.gif"
+  },
+  {
+    "revision": "89cdaef2654dbc9d80570a8ed23c97e9",
+    "url": "/static/media/gifcrop.89cdaef2.gif"
   },
   {
     "revision": "797abff4bc520f4b8c8550271cc0b58e",
@@ -76,7 +76,7 @@ self.__precacheManifest = [
     "url": "/static/media/circulo.da67e089.png"
   },
   {
-    "revision": "1e8ebc44426770588ff01b0f382bf768",
+    "revision": "8fb3019f86ecd8caece9d6f05bc392df",
     "url": "/index.html"
   }
 ];
