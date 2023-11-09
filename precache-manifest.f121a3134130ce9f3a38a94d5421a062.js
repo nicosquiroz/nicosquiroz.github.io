@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "901ecce131a92b5831f1",
-    "url": "/static/css/main.fa539c93.chunk.css"
+    "revision": "bb267ead488d547b3a6d",
+    "url": "/static/css/main.91a755a5.chunk.css"
   },
   {
-    "revision": "901ecce131a92b5831f1",
-    "url": "/static/js/main.901ecce1.chunk.js"
+    "revision": "bb267ead488d547b3a6d",
+    "url": "/static/js/main.bb267ead.chunk.js"
   },
   {
     "revision": "fa677b773aaf13c72ca8",
@@ -64,6 +64,18 @@ self.__precacheManifest = [
     "url": "/static/media/movil 2.3f801a85.jpeg"
   },
   {
+    "revision": "2100b4a02ebb94c0aa18cabd642ee507",
+    "url": "/static/media/RobotoSlab-Regular.2100b4a0.ttf"
+  },
+  {
+    "revision": "8a36205bd9b83e03af0591a004bc97f4",
+    "url": "/static/media/Roboto-Regular.8a36205b.ttf"
+  },
+  {
+    "revision": "95393d9faf957406807a05d8fba3f4fc",
+    "url": "/static/media/OpenSans-VariableFont_wdth,wght.95393d9f.ttf"
+  },
+  {
     "revision": "8caf9417629687b72b90d76ca161f2a5",
     "url": "/static/media/EuropaGroteskSH-Med.8caf9417.otf"
   },
@@ -76,7 +88,7 @@ self.__precacheManifest = [
     "url": "/static/media/circulo.da67e089.png"
   },
   {
-    "revision": "ea2047da5c13528259d8c1d9ba29ee8b",
+    "revision": "a7494e520647a52667bcce5d9b9a5070",
     "url": "/index.html"
   }
 ];
