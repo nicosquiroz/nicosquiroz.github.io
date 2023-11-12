@@ -1,7 +1,7 @@
 {
   "main.css": "/static/css/main.1eb26e76.chunk.css",
-  "main.js": "/static/js/main.bf5a8320.chunk.js",
-  "main.js.map": "/static/js/main.bf5a8320.chunk.js.map",
+  "main.js": "/static/js/main.17f11492.chunk.js",
+  "main.js.map": "/static/js/main.17f11492.chunk.js.map",
   "static/js/1.fa677b77.chunk.js": "/static/js/1.fa677b77.chunk.js",
   "static/js/1.fa677b77.chunk.js.map": "/static/js/1.fa677b77.chunk.js.map",
   "static/js/2.19e07913.chunk.js": "/static/js/2.19e07913.chunk.js",
@@ -12,7 +12,7 @@
   "static/media/Poster.png": "/static/media/Poster.d71db4b4.png",
   "static/media/instagram.svg": "/static/media/instagram.59bde324.svg",
   "static/media/App.css": "/static/media/gradiente.797abff4.gif",
-  "static/media/index.css": "/static/media/Minimal-Mono-Regular.461d6a4a.otf",
+  "static/media/index.css": "/static/media/Roboto-Regular.8a36205b.ttf",
   "static/media/linea2.png": "/static/media/linea2.b8df56b0.png",
   "static/media/manos.png": "/static/media/manos.82af3e05.png",
   "static/media/1.svg": "/static/media/1.9d751201.svg",
@@ -21,6 +21,6 @@
   "static/media/circulo.png": "/static/media/circulo.da67e089.png",
   "static/css/main.1eb26e76.chunk.css.map": "/static/css/main.1eb26e76.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.9f832f2fbb700e7accba241674867e8c.js": "/precache-manifest.9f832f2fbb700e7accba241674867e8c.js",
+  "precache-manifest.cecba51e00eaa348286335c14cafb56d.js": "/precache-manifest.cecba51e00eaa348286335c14cafb56d.js",
   "service-worker.js": "/service-worker.js"
 }
