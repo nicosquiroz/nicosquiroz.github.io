@@ -7,13 +7,16 @@ html {
   margin-left:4svw;
   margin-right:4svw;
   margin-top: 3rem;
-  font-size: small;
+  font-size: 1em;
+  /* font-size: 1.2em; */
   border: black;
   border-width: 1emma;
   }
 @media screen and (max-width: 700px) {
   .App {
     font-size: .77rem;
+    font-size: .8rem;
+    font-size: .9em; {/* este teamaño es para sans serif*/}
     /* background-color: yellow; */
   }
 }
@@ -65,10 +68,12 @@ html {
   margin-bottom: 20rem;
   /* font-weight: 400; */
   color: rgba(0, 0, 0, 0.834);
+  color: black;
   /* color: rgb(41, 39, 39); */
   /* font-weight: bold; */
   /* text-align: justify; */
   line-height: 1.25rem;
+  font-family: 'Roboto Mono';
 
 
 }
@@ -108,22 +113,25 @@ html {
 
 
 .fuente2 {
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
   font-size: 14px;
   
 }
 .Seccion2 {
-  background-image: linear-gradient(180deg, rgb(0, 0, 0) 40%, rgba(18,18,18,1) 50%);
-  margin-left: -6svw;
-  margin-right: -6svw;
-  padding-bottom: 10svw;
+  /* background-image: linear-gradient(180deg, rgb(0, 0, 0) 40%, rgba(18,18,18,1) 50%); */
+  background-color: rgb(164, 58, 58);
+  background-color: black;
+  margin-left: -4svw;
+  margin-right: -4svw;
+  /* padding-bottom: 10svw; */
   color: beige;
   color:#e3e1e1;
-  color: white;
+  color: rgb(236, 236, 236);
+  /* line-height: 1.2em;   */
   text-align: center;
-  border-radius: 20px;
-
-
+  /* border-radius: 20px; */
+  height:3350px;
+  overflow:hidden;
   
   
 }
@@ -157,10 +165,11 @@ html {
   
   /* margin-left: -4svw;
   margin-right: -4svw; */
-  border-radius: 20px;
+  /* border-radius: 20px; */
   margin-left: 1svw;
   margin-right: 1svw;
   height: 500px;
+  margin-top: -4px;
 }
 .Span > h1 {
   font-family:Arial, Helvetica, sans-serif;
@@ -185,11 +194,11 @@ html {
 
 .gif {
   border: #c2c2c2;
-  border-radius: 1em;
+  /* border-radius: 1em; */
   border-color: aliceblue;
   /* width: 70%;  */
   width: 100%;
-  height: 200px;
+  height: 190px;
   background-size: contain;
   /* zoom:130%; */
   background-clip: border-box;
@@ -211,12 +220,25 @@ html {
 @media screen and (max-width: 600px) {
   .gif {
     padding-top: 10svw;
+    margin-top: -50px;
+    width: 94%;
+    border: #c2c2c2;
+    /* border-radius: 1em; */
+    height: 40vh;
+    height: 70svw;
+    zoom:80%;
+    background-repeat: no-repeat;
+    margin-bottom: -30px;
+    /* height: 90vh; */
+    /* background-size: cover; */
+
+    /* padding-top: 10svw;
     width: 95%;
     border: #c2c2c2;
     border-radius: 1em;
     height: 70svw;
     zoom:80%;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
   }
   
 }
@@ -253,8 +275,15 @@ body {
   /* background-color: rgba(224, 219, 219, 0.432); */
   background-color: rgba(241,240,239,255);
   /* background-size: cover; */
-  font-family:'Roboto Mono', monospace;
-  /* font-family: 'Helvetica Neue', sans-serif; */
+  
+  /* font-family:'Roboto Mono', monospace;
+  font-family: monospace;
+  font-size: .95em; */
+  /* font-family: monospace; */
+  
+  /* font-family: 'Satoshi'; */
+  /* font-family: 'Satoshi'; */
+  font-family: 'Helvetica Neue', sans-serif;
   /* font-family: monospace; */
   /* color:rgb(48, 48, 48); */
   
@@ -318,6 +347,8 @@ header > div > img {
 
   background-color: white; /*Cambia el color de fondo a blanco cuando está sonando*/
   background-image: url("./img/gradiente.gif");
+
+  background: grayscale(100%);
   position: fixed;
   top: 0;
   left: 0;
@@ -337,7 +368,9 @@ header > div > img {
   /* background: 60%; */
   
   mix-blend-mode:luminosity;
-  -webkit-filter:blur(3px) brightness(1.1);
+  mix-blend-mode:saturation;
+  mix-blend-mode:normal;
+  -webkit-filter:blur(2px) brightness(1.1);
   /* brightness(1.1); */
   /* width: 300%; */
   /* display:flow-root; */
@@ -392,20 +425,40 @@ header > div > img {
     animation: moveSlideshow 12s linear infinite;
   }
 
+.Monospaced {
+    font-family: 'Roboto Mono', monospace;
+  }
+.Descripción {
+  margin-top: 50px;
+}
+.descr{
+  font-size: 1.1em;
+  margin-top: 4svw;
+}
 .intxt {
   margin-top: 4svw;
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
-  width: 50svw;
+  text-align: right;
+  /* width: 50svw; */
   font-size: smaller;
   color: #e5e5e5;
   opacity: .6;
+}
+.botones {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 @media screen and (max-width: 800px) {
   .intxt {
     width: 90svw;
+    text-align: left;
+    margin-left: -4vw;
+    margin-top: -1vh;
+    margin-bottom: 4vh;
   }
 }
 
@@ -433,12 +486,49 @@ header > div > img {
 
 .row {
   display: flex;
+  /* width: 90vw; */
+  margin-left: 4vw;
 }
 
 
-.column {
-  flex: 50%;
+.column1 {
+  flex: 40%;
   text-align: left;
+}
+.column {
+  flex: 55%;
+  text-align: left;
+  /* margin-left: -5%; */
+  /* margin-right: 3%; */
+}
+
+.footer_n {
+  display: flex;
+  margin-left: 4vw;
+  align-items: center;
+}
+.column_n {
+  flex: 40%;
+  text-align: left;
+}
+
+.column_m {
+  flex: 55%;
+}
+
+.KeepReading {
+  right:5vw;
+  position: absolute;
+}
+
+@media screen and (max-width:600px) {
+  .row {
+    margin-left: auto;
+  }
+  .column1 {
+    margin-left: 4vw;
+  }
+  
 }
 
 @media screen and (max-width: 700px) { 
@@ -479,6 +569,29 @@ mark  {
 
 
 
+
+
+ .barra {
+  width: 104vw;
+  margin-left: -4vw;
+ }
+ .barra2 {
+  position: absolute;
+  width:100vw;
+  left: 0;
+  margin-top: -20px;
+
+ }
+ .manos {
+  mix-blend-mode: lighten;
+  position: absolute;
+  margin-left: -33vw;
+  margin-right: auto;
+  width: 80vw;
+ }
+ .uno{
+  /* margin-left: -90vw; */
+ }
 /* 
  .circulo {
   width: 40% ;
